@@ -10,11 +10,11 @@
     android:weightSum="1"
     tools:context="com.example.myapplication.MainActivity">
 
-
     <Button
         android:id="@+id/bLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
         android:background="@color/common_google_signin_btn_text_dark_disabled"
         android:text="Login" />
 
@@ -22,6 +22,7 @@
         android:id="@+id/bRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:background="@color/common_google_signin_btn_text_dark_disabled"
         android:text="Register" />
 
@@ -29,6 +30,7 @@
         android:id="@+id/bLogout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
         android:background="@color/common_google_signin_btn_text_dark_disabled"
         android:text="Logout" />
 
@@ -36,14 +38,19 @@
         android:id="@+id/bReadMe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
         android:background="@color/common_google_signin_btn_text_dark_disabled"
         android:text="Read Me" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.88"
-        android:textStyle="bold" />
-
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ScrollView01" android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.88"
+            android:textStyle="bold" />
+    </ScrollView>
 </LinearLayout>
