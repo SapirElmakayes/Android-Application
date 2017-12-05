@@ -14,6 +14,7 @@ import android.util.Base64;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -25,6 +26,7 @@ import static android.widget.Toast.*;
 public class afterLogin extends AppCompatActivity implements View.OnClickListener {
 
     Button bInfo, bMap;
+    ImageButton bBack;
     ImageView imageView;
 
     @Override
@@ -39,6 +41,9 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
         bMap.setOnClickListener(this);
 
         imageView = (ImageView) findViewById(R.id.imageView);
+
+        bBack = (ImageButton) findViewById(R.id.bBack);
+        bBack.setOnClickListener(this);
 
     }
 
@@ -81,6 +86,9 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
             case R.id.bMap:
                 startActivity(new Intent(this, MapsActivity.class));
                 break;
+
+            case R.id.bBack:
+                finish();
         }
 
     }

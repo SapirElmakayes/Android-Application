@@ -14,22 +14,23 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.graphics.Bitmap;
+import java.io.File;
+import android.os.Environment;
+import android.app.Activity;
+import android.util.Log;
+import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
 
 public class Register extends AppCompatActivity implements View.OnClickListener{
 
-    Button bRegister;
-    Button bupimg;
+    Button bRegister, bupimg, bTakePic;
     EditText etUserName, etPassword, etName, etLastName, etCity, etAddress, etEMail;
     ImageView imagetoupload;
     Uri selectedImg;
-    UserLocalStore userLocalStore;
-
-    String img_name;
-
     String encodedImg;
 
+    UserLocalStore userLocalStore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,14 +47,15 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
         userLocalStore = new UserLocalStore(this);
 
         imagetoupload = (ImageView) findViewById(R.id.imagetoupload);
+
         bupimg = (Button) findViewById(R.id.bupimg);
         bupimg.setOnClickListener(this);
 
         bRegister = (Button) findViewById(R.id.bRegister);
         bRegister.setOnClickListener(this);
 
-
-
+        bTakePic = (Button) findViewById(R.id.bTakePic);
+        bTakePic.setOnClickListener(this);
     }
 
 
@@ -65,8 +67,12 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                 startActivityForResult(galleryIntent, 1);
                 break;
 
-            case R.id.bRegister:
+            case R.id.bTakePic:
+                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivityForResult(intent, 0);
+                break;
 
+            case R.id.bRegister:
                 String userName = etUserName.getText().toString();
                 String password = etPassword.getText().toString();
                 String name = etName.getText().toString();
@@ -79,7 +85,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                 User registeredData = new User(userName, password, name, lastName, city, address, email, img);
                 userLocalStore.storeUserData(registeredData);
 
-                finish();
+                startActivity(new Intent(this, Login.class));
                 break;
         }
     }
@@ -87,15 +93,32 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == 1 && resultCode == RESULT_OK && data != null) {
-            selectedImg = data.getData();
-            imagetoupload.setImageURI(selectedImg);
+        switch (requestCode) {
+            case 1:
+                if(requestCode == 1 && resultCode == RESULT_OK && data != null) {
+                    selectedImg = data.getData();
+                    imagetoupload.setImageURI(selectedImg);
 
-            Bitmap Bimg = ((BitmapDrawable) imagetoupload.getDrawable()).getBitmap();
+                    Bitmap Bimg = ((BitmapDrawable) imagetoupload.getDrawable()).getBitmap();
 
-            ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-            Bimg.compress(Bitmap.CompressFormat.JPEG, 50, byteArrayOutputStream);
-            encodedImg = Base64.encodeToString(byteArrayOutputStream.toByteArray(), Base64.DEFAULT);
+                    ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                    Bimg.compress(Bitmap.CompressFormat.JPEG, 50, byteArrayOutputStream);
+                    encodedImg = Base64.encodeToString(byteArrayOutputStream.toByteArray(), Base64.DEFAULT);
+                }
+                break;
+
+            case 0:
+                Bitmap Bimg = (Bitmap)data.getExtras().get("data");
+                imagetoupload.setImageBitmap(Bimg);
+
+                Toast.makeText(Register.this, "You take a picture", Toast.LENGTH_LONG).show();
+
+                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                Bimg.compress(Bitmap.CompressFormat.JPEG, 50, byteArrayOutputStream);
+                encodedImg = Base64.encodeToString(byteArrayOutputStream.toByteArray(), Base64.DEFAULT);
+                break;
+
         }
+
     }
 }

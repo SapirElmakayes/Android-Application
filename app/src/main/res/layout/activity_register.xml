@@ -14,14 +14,34 @@
         android:padding="18dp"
         android:weightSum="1">
 
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true">
+
         <Button
             android:id="@+id/bupimg"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_weight="1"
             android:background="@color/common_google_signin_btn_text_dark_disabled"
             android:text="UploadPicture"
             android:textAllCaps="false"
             android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bTakePic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="Take Photo"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        </LinearLayout>
 
         <ImageView
             android:id="@+id/imagetoupload"

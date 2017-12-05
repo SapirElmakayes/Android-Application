@@ -26,7 +26,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         bLogin = (Button) findViewById(R.id.bLogin);
 
         bLogin.setOnClickListener(this);
-
     }
 
 
@@ -34,7 +33,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch(v.getId()) {
             case R.id.bLogin:
-
                 SharedPreferences user = getSharedPreferences("userDetails", 0);
                 String uValue = user.getString("userName", "");
                 String pValue = user.getString("password", "");
@@ -44,9 +42,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 } else {
                     Toast.makeText(Login.this, "Incorrect password or userName", Toast.LENGTH_LONG).show();
                 }
-
                 break;
         }
-
     }
 }

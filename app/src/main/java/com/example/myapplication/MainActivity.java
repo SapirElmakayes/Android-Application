@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button bLogin, bRegister, bLogout, bReadMe;
+    Button bLogin, bRegister, bReadMe, bLogOut;
     UserLocalStore userLocalStore;
     TextView textView;
 
@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         bLogin = (Button) findViewById(R.id.bLogin);
+        bLogOut = (Button) findViewById(R.id.bLogOut);
         bRegister = (Button) findViewById(R.id.bRegister);
-        bLogout = (Button) findViewById(R.id.bRegister);
         bReadMe = (Button) findViewById(R.id.bReadMe);
         textView = (TextView) findViewById(R.id.textView);
 
         bLogin.setOnClickListener(this);
+        bLogOut.setOnClickListener(this);
         bRegister.setOnClickListener(this);
-        bLogout.setOnClickListener(this);
         bReadMe.setOnClickListener(this);
         textView.setOnClickListener(this);
 
@@ -44,10 +44,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.bRegister:
                 startActivity(new Intent(this, Register.class));
-                break;
-            case R.id.bLogout:
-                userLocalStore.clearUserData();
-                userLocalStore.setUserLoggedIn(false);
                 break;
             case R.id.bReadMe:
                 textView.setText("סידורון\n" +
@@ -71,6 +67,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.textView:
                 textView.setText("");
+                break;
+
+            case R.id.bLogOut:
+                userLocalStore.clearUserData();
+                userLocalStore.setUserLoggedIn(false);
                 break;
         }
 
