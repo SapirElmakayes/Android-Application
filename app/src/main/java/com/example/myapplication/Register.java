@@ -19,8 +19,15 @@ import android.os.Environment;
 import android.app.Activity;
 import android.util.Log;
 import android.widget.Toast;
-
 import java.io.ByteArrayOutputStream;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthException;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class Register extends AppCompatActivity implements View.OnClickListener{
 
@@ -29,8 +36,10 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     ImageView imagetoupload;
     Uri selectedImg;
     String encodedImg;
-
     UserLocalStore userLocalStore;
+    DatabaseReference mDatabase;
+    private FirebaseAuth auth;
+    //String userId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +65,8 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
 
         bTakePic = (Button) findViewById(R.id.bTakePic);
         bTakePic.setOnClickListener(this);
+        auth=FirebaseAuth.getInstance();
+
     }
 
 
@@ -73,7 +84,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                 break;
 
             case R.id.bRegister:
-                String userName = etUserName.getText().toString();
+                final String userName = etUserName.getText().toString();
                 String password = etPassword.getText().toString();
                 String name = etName.getText().toString();
                 String lastName = etLastName.getText().toString();
@@ -81,16 +92,36 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                 String address = etAddress.getText().toString();
                 String email = etEMail.getText().toString();
                 String img = encodedImg;
+                mDatabase = FirebaseDatabase.getInstance().getReference();
+                final User registeredData = new User(userName, password, name, lastName, city, address, email, img);
+                mDatabase.child("users").addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        if(dataSnapshot.child(userName).exists())
+                            Toast.makeText(Register.this, "The UserName is already exists!", Toast.LENGTH_LONG).show();
+                        else{
+                            mDatabase.child("users").child(userName).setValue(registeredData);
+                            Toast.makeText(Register.this, "Success Register!", Toast.LENGTH_LONG).show();
+                            Intent intent=new Intent(getApplicationContext(), afterLoginMangaer.class);
+                            intent.putExtra("username", "");
+                            startActivity(intent);
 
-                User registeredData = new User(userName, password, name, lastName, city, address, email, img);
-                userLocalStore.storeUserData(registeredData);
+                        }
+                    }
 
-                startActivity(new Intent(this, Login.class));
-                break;
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
+
+                //userLocalStore.storeUserData(registeredData);
+                //startActivity(new Intent(this, Login.class));
+               // break;
         }
     }
 
-    @Override
+@Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {

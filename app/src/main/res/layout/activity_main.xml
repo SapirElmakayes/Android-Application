@@ -10,35 +10,47 @@
     android:weightSum="1"
     tools:context="com.example.myapplication.MainActivity">
 
+    <ImageView
+        android:layout_width="105dp"
+        android:layout_height="107dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:inputType="textPassword" />
+
     <Button
         android:id="@+id/bLogin"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/fab_margin"
+        android:layout_height="36dp"
         android:background="@color/common_google_signin_btn_text_dark_disabled"
         android:text="Login" />
 
     <Button
-        android:id="@+id/bRegister"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:background="@color/common_google_signin_btn_text_dark_disabled"
-        android:text="Register" />
-
-    <Button
-        android:id="@+id/bLogOut"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/fab_margin"
-        android:background="@color/common_google_signin_btn_text_dark_disabled"
-        android:text="Logout" />
-
-    <Button
         android:id="@+id/bReadMe"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/fab_margin"
+        android:layout_height="37dp"
         android:background="@color/common_google_signin_btn_text_dark_disabled"
         android:text="Read Me" />
 
