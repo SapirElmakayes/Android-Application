@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.afterLogin"
+    android:weightSum="1"
+    android:padding="18dp">
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="239dp"
+            android:layout_height="43dp"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_weight="1"
+            android:text=""
+            android:textAllCaps="false"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+
+        <TextView
+            android:id="@+id/Logout"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Logout"
+            android:textAppearance="@style/TextAppearance.AppCompat.Tooltip" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/bInfo"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="View the Employees"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="Add Employee"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/bShift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="Types of shifts"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bshiftperweek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="Shifts Per Week"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayout04"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/bPayment"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="Payment"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bPaymentToM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="Management's Payment"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ScrollView01" android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.88"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu" />
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/bBack"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:duplicateParentState="false"
+        android:soundEffectsEnabled="true"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+
+</LinearLayout>

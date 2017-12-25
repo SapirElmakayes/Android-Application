@@ -21,6 +21,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import  android.graphics.Bitmap;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import static android.widget.Toast.*;
 
 public class afterLogin extends AppCompatActivity implements View.OnClickListener {
@@ -28,6 +34,10 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
     Button bInfo, bMap;
     ImageButton bBack;
     ImageView imageView;
+    TextView hello, Logout;
+    private String username;
+    private FirebaseDatabase database;
+    private DatabaseReference mFirebaseDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,43 +54,69 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
 
         bBack = (ImageButton) findViewById(R.id.bBack);
         bBack.setOnClickListener(this);
+        Intent login=getIntent();
+        username=login.getExtras().getString("username");
+        database= FirebaseDatabase.getInstance();
+        mFirebaseDatabase = database.getReference("users");
+        hello=(TextView)findViewById(R.id.textView2);
+        hello.setText("Hello "+username);
 
+        Logout= (TextView)findViewById(R.id.Logout);
+        Logout.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch(v.getId()) {
             case R.id.bInfo:
+                mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
 
-                SharedPreferences user = getSharedPreferences("userDetails", 0);
-                String uValue = user.getString("userName", "");
-                String nValue = user.getString("name", "");
-                String lValue = user.getString("lastName", "");
-                String cValue = user.getString("city", "");
-                String aValue = user.getString("address", "");
-                String mValue = user.getString("email", "");
-                String imgValue = user.getString("img", "");
+                       User user1=dataSnapshot.child(username).getValue(User.class);
+                       String nValue =user1._name;
+                       String lValue = user1._lastName;
+                       String cValue =user1._city;
+                       String aValue =user1._address;
+                       String mValue =user1._email;
+                       String imgValue =user1._img;
+                       if(user1._img==null){
+                           imgValue="";
+                       }
+                       byte [] encodeByte = Base64.decode(imgValue, Base64.DEFAULT);
+                       Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
+                       imageView.setImageBitmap(bitmap);
+                       ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1);
+                        ListView list = (ListView) findViewById(R.id.listView);
+                       adapter.add("User Name: ");
+                       adapter.add(username);
+                       adapter.add("Name: ");
+                       adapter.add(nValue);
+                       adapter.add("Last Name: ");
+                       adapter.add(lValue);
+                       adapter.add("City: ");
+                       adapter.add(cValue);
+                       adapter.add("Address: ");
+                       adapter.add(aValue);
+                       adapter.add("E-Mail: ");
+                       adapter.add(mValue);
 
-                byte [] encodeByte = Base64.decode(imgValue, Base64.DEFAULT);
-                Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
-                imageView.setImageBitmap(bitmap);
+                        list.setAdapter(adapter);
 
-                ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1);
-                ListView list = (ListView) findViewById(R.id.listView);
-                adapter.add("User Name: ");
-                adapter.add(uValue);
-                adapter.add("Name: ");
-                adapter.add(nValue);
-                adapter.add("Last Name: ");
-                adapter.add(lValue);
-                adapter.add("City: ");
-                adapter.add(cValue);
-                adapter.add("Address: ");
-                adapter.add(aValue);
-                adapter.add("E-Mail: ");
-                adapter.add(mValue);
+                    }
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
 
-                list.setAdapter(adapter);
+                    }
+                });
+
+             //   ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1);
+
+                break;
+
+            case R.id.Logout:
+                startActivity(new Intent(afterLogin.this, MainActivity.class));
+                Toast.makeText(this, "Success Logout", Toast.LENGTH_LONG).show();
                 break;
 
             case R.id.bMap:

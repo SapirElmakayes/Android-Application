@@ -7,43 +7,86 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button bLogin, bRegister, bReadMe, bLogOut;
-    UserLocalStore userLocalStore;
+    Button bLogin, bReadMe;
+    EditText etUserName, etPassword;
     TextView textView;
-
+    private FirebaseDatabase database;
+    private DatabaseReference mFirebaseDatabase;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         bLogin = (Button) findViewById(R.id.bLogin);
-        bLogOut = (Button) findViewById(R.id.bLogOut);
-        bRegister = (Button) findViewById(R.id.bRegister);
         bReadMe = (Button) findViewById(R.id.bReadMe);
         textView = (TextView) findViewById(R.id.textView);
+        etUserName = (EditText) findViewById(R.id.etUserName);
+        etPassword = (EditText) findViewById(R.id.etPassword);
+
+        etUserName = (EditText) findViewById(R.id.etUserName);
+        etPassword = (EditText) findViewById(R.id.etPassword);
 
         bLogin.setOnClickListener(this);
-        bLogOut.setOnClickListener(this);
-        bRegister.setOnClickListener(this);
         bReadMe.setOnClickListener(this);
         textView.setOnClickListener(this);
-
-        userLocalStore = new UserLocalStore(this);
+        database=FirebaseDatabase.getInstance();
+        mFirebaseDatabase = database.getReference("users");
     }
-
-
 
     @Override
     public void onClick(View v) {
         switch(v.getId()) {
             case R.id.bLogin:
-                startActivity(new Intent(this, Login.class));
-                break;
-            case R.id.bRegister:
-                startActivity(new Intent(this, Register.class));
+                final String username=etUserName.getText().toString();
+                final String password1=etPassword.getText().toString();
+                mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        if(dataSnapshot.child(username).exists()){
+                            if(!username.isEmpty()){
+                                final User user1=dataSnapshot.child(username).getValue(User.class);
+                                if(user1._password.equals(password1)){
+                                    Toast.makeText(MainActivity.this, "Success Login", Toast.LENGTH_LONG).show();
+                                    if(username.equals("manager")){
+                                        Intent intent = new Intent(MainActivity.this, afterLoginMangaer.class);
+                                        intent.putExtra("username", username);
+                                        startActivity(intent);
+                                    }
+                                    else {
+                                        Intent intent = new Intent(MainActivity.this, afterLogin.class);
+                                        intent.putExtra("username", username);
+                                        startActivity(intent);
+                                    }
+                                }
+                                else{
+                                    Toast.makeText(MainActivity.this, "Password is Worng", Toast.LENGTH_LONG).show();
+                                }
+                            }
+                            else{
+                                Toast.makeText(MainActivity.this, "Username is not register", Toast.LENGTH_LONG).show();
+                            }
+                        }
+                        else{
+                            Toast.makeText(MainActivity.this, "Username is not register", Toast.LENGTH_LONG).show();
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
+
                 break;
             case R.id.bReadMe:
                 textView.setText("סידורון\n" +
@@ -69,10 +112,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 textView.setText("");
                 break;
 
-            case R.id.bLogOut:
-                userLocalStore.clearUserData();
-                userLocalStore.setUserLoggedIn(false);
-                break;
         }
 
     }

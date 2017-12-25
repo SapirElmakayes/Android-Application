@@ -9,6 +9,32 @@
     tools:context="com.example.myapplication.afterLogin"
     android:weightSum="1">
 
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="239dp"
+            android:layout_height="43dp"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_weight="1"
+            android:text=""
+            android:textAllCaps="false"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+
+        <TextView
+            android:id="@+id/Logout"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Logout"
+            android:textAppearance="@style/TextAppearance.AppCompat.Tooltip" />
+
+    </LinearLayout>
     <Button
         android:id="@+id/bInfo"
         android:layout_width="match_parent"
