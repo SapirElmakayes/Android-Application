@@ -27,9 +27,8 @@ public class EditPaymentForMangment extends AppCompatActivity implements View.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_payment_for_mangment);
 
-        bEdit= (Button) findViewById (R.id.bEdit);
+        bEdit = (Button) findViewById (R.id.bEdit);
         bEdit.setOnClickListener(this);
-
 
         bAdd = (Button) findViewById(R.id.bAdd);
         bAdd.setOnClickListener(this);
@@ -37,11 +36,9 @@ public class EditPaymentForMangment extends AppCompatActivity implements View.On
         etRule = (EditText) findViewById(R.id.etRole);
         etPayment = (EditText) findViewById(R.id.etPayment);
 
-        database=FirebaseDatabase.getInstance();
-        mFirebaseDatabase=database.getReference("Payment For Management");
-
+        database = FirebaseDatabase.getInstance();
+        mFirebaseDatabase = database.getReference("Payment For Management");
     }
-
     @Override
     public void onClick(View v) {
         switch(v.getId()) {
@@ -53,20 +50,18 @@ public class EditPaymentForMangment extends AppCompatActivity implements View.On
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if(rule.equals("") || payment.equals("")){
                             Toast.makeText(EditPaymentForMangment.this, "Fill All",Toast.LENGTH_LONG).show();
-                        }
-                        else if (dataSnapshot.child(rule).exists()) {
+                        } else if (dataSnapshot.child(rule).exists()) {
                             HashMap<String, Object> map = new HashMap<>();
                             map.put(rule, payment);
                             mFirebaseDatabase.updateChildren(map);
                             Toast.makeText(EditPaymentForMangment.this, "Update succeeded", Toast.LENGTH_LONG).show();
-                            Intent intent=new Intent(getApplicationContext(), afterLoginMangaer.class);
+                            Intent intent = new Intent(getApplicationContext(), afterLoginMangaer.class);
                             intent.putExtra("username", "");
                             startActivity(intent);
                         } else {
                             Toast.makeText(EditPaymentForMangment.this, "This Role not Exists", Toast.LENGTH_LONG).show();
                         }
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                         Toast.makeText(EditPaymentForMangment.this, "An error occured", Toast.LENGTH_LONG).show();
@@ -82,25 +77,19 @@ public class EditPaymentForMangment extends AppCompatActivity implements View.On
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if(rule1.equals("") || payment1.equals("")){
                             Toast.makeText(EditPaymentForMangment.this, "Fill All", Toast.LENGTH_LONG).show();
-                        }
-                        else if(dataSnapshot.child(rule1).exists()) {
+                        } else if(dataSnapshot.child(rule1).exists()) {
                             Toast.makeText(EditPaymentForMangment.this, "this rule is exists", Toast.LENGTH_LONG).show();
-
-                        }
-                        else {
+                        } else {
                             mFirebaseDatabase.child(rule1).setValue(payment1);
                             Toast.makeText(EditPaymentForMangment.this, "Success ADD", Toast.LENGTH_LONG).show();
-                            Intent intent=new Intent(getApplicationContext(), afterLoginMangaer.class);
+                            Intent intent = new Intent(getApplicationContext(), afterLoginMangaer.class);
                             intent.putExtra("username", "");
                             startActivity(intent);
-
                         }
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                         Toast.makeText(EditPaymentForMangment.this, "An error occured", Toast.LENGTH_LONG).show();
-
                     }
                 });
                 break;

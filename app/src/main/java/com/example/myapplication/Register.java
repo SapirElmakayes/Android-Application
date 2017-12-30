@@ -30,7 +30,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class Register extends AppCompatActivity implements View.OnClickListener{
-
     Button bRegister, bupimg, bTakePic;
     EditText etUserName, etPassword, etName, etLastName, etCity, etAddress, etEMail;
     ImageView imagetoupload;
@@ -40,7 +39,6 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
     DatabaseReference mDatabase;
     private FirebaseAuth auth;
     //String userId;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,7 +52,6 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
         etAddress = (EditText) findViewById(R.id.etAddress);
         etEMail = (EditText) findViewById(R.id.etEMail);
         userLocalStore = new UserLocalStore(this);
-
         imagetoupload = (ImageView) findViewById(R.id.imagetoupload);
 
         bupimg = (Button) findViewById(R.id.bupimg);
@@ -65,11 +62,8 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
 
         bTakePic = (Button) findViewById(R.id.bTakePic);
         bTakePic.setOnClickListener(this);
-        auth=FirebaseAuth.getInstance();
-
+        auth = FirebaseAuth.getInstance();
     }
-
-
     @Override
     public void onClick(View v) {
         switch(v.getId()) {
@@ -77,12 +71,10 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                 Intent galleryIntent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 startActivityForResult(galleryIntent, 1);
                 break;
-
             case R.id.bTakePic:
                 Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 startActivityForResult(intent, 0);
                 break;
-
             case R.id.bRegister:
                 final String userName = etUserName.getText().toString();
                 String password = etPassword.getText().toString();
@@ -97,30 +89,25 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                 mDatabase.child("users").addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        if(dataSnapshot.child(userName).exists())
+                        if (dataSnapshot.child(userName).exists())
                             Toast.makeText(Register.this, "The UserName is already exists!", Toast.LENGTH_LONG).show();
-                        else{
+                        else {
                             mDatabase.child("users").child(userName).setValue(registeredData);
                             Toast.makeText(Register.this, "Success Register!", Toast.LENGTH_LONG).show();
-                            Intent intent=new Intent(getApplicationContext(), afterLoginMangaer.class);
+                            Intent intent = new Intent(getApplicationContext(), afterLoginMangaer.class);
                             intent.putExtra("username", "");
                             startActivity(intent);
-
                         }
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
-
                     }
                 });
-
                 //userLocalStore.storeUserData(registeredData);
                 //startActivity(new Intent(this, Login.class));
                // break;
         }
     }
-
 @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -137,7 +124,6 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                     encodedImg = Base64.encodeToString(byteArrayOutputStream.toByteArray(), Base64.DEFAULT);
                 }
                 break;
-
             case 0:
                 Bitmap Bimg = (Bitmap)data.getExtras().get("data");
                 imagetoupload.setImageBitmap(Bimg);
@@ -148,8 +134,6 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                 Bimg.compress(Bitmap.CompressFormat.JPEG, 50, byteArrayOutputStream);
                 encodedImg = Base64.encodeToString(byteArrayOutputStream.toByteArray(), Base64.DEFAULT);
                 break;
-
         }
-
     }
 }

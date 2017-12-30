@@ -22,15 +22,13 @@ public class EditShiftPerWeek extends AppCompatActivity implements View.OnClickL
     EditText etDay, etType, etName, etRole;
     private FirebaseDatabase database;
     private DatabaseReference mFirebaseDatabase;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_shift_per_week);
 
-        bEdit= (Button) findViewById (R.id.bEdit);
+        bEdit = (Button) findViewById (R.id.bEdit);
         bEdit.setOnClickListener(this);
-
 
         bAdd = (Button) findViewById(R.id.bAdd);
         bAdd.setOnClickListener(this);
@@ -40,9 +38,8 @@ public class EditShiftPerWeek extends AppCompatActivity implements View.OnClickL
         etRole = (EditText) findViewById(R.id.etRole);
         etName = (EditText) findViewById(R.id.etName);
 
-        database=FirebaseDatabase.getInstance();
-        mFirebaseDatabase=database.getReference("shifts per week");
-
+        database = FirebaseDatabase.getInstance();
+        mFirebaseDatabase = database.getReference("shifts per week");
     }
 
     @Override
@@ -51,63 +48,54 @@ public class EditShiftPerWeek extends AppCompatActivity implements View.OnClickL
             case R.id.bEdit:
                 final String day = etDay.getText().toString();
                 final String type = etType.getText().toString();
-                final String name=etName.getText().toString();
-                final String Role=etRole.getText().toString();
+                final String name = etName.getText().toString();
+                final String Role = etRole.getText().toString();
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if(day.equals("") || type.equals("") || name.equals("") || Role.equals("")){
                             Toast.makeText(EditShiftPerWeek.this, "Fill All", Toast.LENGTH_LONG).show();
-                        }
-                        else if (dataSnapshot.child(day).child(type).child(name).exists()) {
+                        } else if (dataSnapshot.child(day).child(type).child(name).exists()) {
                             HashMap<String, Object> map = new HashMap<>();
                             map.put(name, Role);
                             mFirebaseDatabase.child(day).child(type).updateChildren(map);
                             Toast.makeText(EditShiftPerWeek.this, "Update succeeded", Toast.LENGTH_LONG).show();
-                            Intent intent=new Intent(getApplicationContext(), afterLoginMangaer.class);
+                            Intent intent = new Intent(getApplicationContext(), afterLoginMangaer.class);
                             intent.putExtra("username", "");
                             startActivity(intent);;
                         } else {
                             Toast.makeText(EditShiftPerWeek.this, "This Role not Exists", Toast.LENGTH_LONG).show();
                         }
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                         Toast.makeText(EditShiftPerWeek.this, "An error occured", Toast.LENGTH_LONG).show();
-
                     }
                 });
                 break;
             case R.id.bAdd:
                 final String day1 = etDay.getText().toString();
                 final String type1 = etType.getText().toString();
-                final String name1=etName.getText().toString();
-                final String Role1=etRole.getText().toString();
+                final String name1 = etName.getText().toString();
+                final String Role1 = etRole.getText().toString();
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if(day1.equals("") || type1.equals("") || name1.equals("") || Role1.equals("")){
                             Toast.makeText(EditShiftPerWeek.this, "Fill All", Toast.LENGTH_LONG).show();
-                        }
-                        else if(dataSnapshot.child(day1).child(type1).child(name1).exists()) {
+                        } else if(dataSnapshot.child(day1).child(type1).child(name1).exists()) {
                             Toast.makeText(EditShiftPerWeek.this, "this name is exists", Toast.LENGTH_LONG).show();
-
-                        }
-                        else {
+                        } else {
                             mFirebaseDatabase.child(day1).child(type1).child(name1).setValue(Role1);
                             Toast.makeText(EditShiftPerWeek.this, "Success ADD", Toast.LENGTH_LONG).show();
-                            Intent intent=new Intent(getApplicationContext(), afterLoginMangaer.class);
+                            Intent intent = new Intent(getApplicationContext(), afterLoginMangaer.class);
                             intent.putExtra("username", "");
                             startActivity(intent);
-
                         }
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                         Toast.makeText(EditShiftPerWeek.this, "An error occured", Toast.LENGTH_LONG).show();
-
                     }
                 });
                 break;

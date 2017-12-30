@@ -23,30 +23,23 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     EditText etUserName, etPassword;
     FirebaseDatabase database;
     DatabaseReference mFirebaseDatabase;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
 
         etUserName = (EditText) findViewById(R.id.etUserName);
         etPassword = (EditText) findViewById(R.id.etPassword);
         bLogin = (Button) findViewById(R.id.bLogin);
 
         bLogin.setOnClickListener(this);
-        database=FirebaseDatabase.getInstance();
+        database = FirebaseDatabase.getInstance();
         mFirebaseDatabase = database.getReference("users");
-
-
     }
-
-
     @Override
     public void onClick(View v) {
         switch(v.getId()) {
             case R.id.bLogin:
-
                 SharedPreferences user = getSharedPreferences("userDetails", 0);
                 String uValue = user.getString("userName", "");
                 String pValue = user.getString("password", "");
@@ -57,36 +50,30 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if(dataSnapshot.child(username).exists()){
                             if(!username.isEmpty()){
-                                final User user1=dataSnapshot.child(username).getValue(User.class);
+                                final User user1 = dataSnapshot.child(username).getValue(User.class);
                                 if(user1._password.equals(password1)){
                                     Toast.makeText(Login.this, "Success Login", Toast.LENGTH_LONG).show();
                                     if(username.equals("manager")){
                                         Intent intent = new Intent(Login.this, afterLoginMangaer.class);
                                         intent.putExtra("username", username);
                                         startActivity(intent);
-                                    }
-                                    else {
+                                    } else {
                                         Intent intent = new Intent(Login.this, afterLogin.class);
                                         intent.putExtra("username", username);
                                         startActivity(intent);
                                     }
-                                }
-                                else{
+                                } else {
                                     Toast.makeText(Login.this, "Password is Worng", Toast.LENGTH_LONG).show();
                                }
-                            }
-                            else{
+                            } else {
                                 Toast.makeText(Login.this, "Username is not register", Toast.LENGTH_LONG).show();
                             }
-                        }
-                        else{
+                        } else {
                             Toast.makeText(Login.this, "Username is not register", Toast.LENGTH_LONG).show();
                         }
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
-
                     }
                 });
               //  if(etUserName.getText().toString().equals(uValue) && etPassword.getText().toString().equals(pValue)) {

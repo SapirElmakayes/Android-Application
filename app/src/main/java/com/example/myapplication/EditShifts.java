@@ -28,19 +28,18 @@ public class EditShifts extends AppCompatActivity implements View.OnClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_shifts);
 
-        bEdit= (Button) findViewById (R.id.bEdit);
+        bEdit = (Button) findViewById (R.id.bEdit);
         bEdit.setOnClickListener(this);
 
         bAdd = (Button) findViewById(R.id.bAdd);
         bAdd.setOnClickListener(this);
 
-        etType=(EditText) findViewById(R.id.etType);
+        etType = (EditText) findViewById(R.id.etType);
         etStart = (EditText) findViewById(R.id.etStart);
         etEnd = (EditText) findViewById(R.id.etEnd);
 
-        database=FirebaseDatabase.getInstance();
-        mFirebaseDatabase=database.getReference("shifts");
-
+        database = FirebaseDatabase.getInstance();
+        mFirebaseDatabase = database.getReference("shifts");
     }
 
     @Override
@@ -55,56 +54,48 @@ public class EditShifts extends AppCompatActivity implements View.OnClickListene
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if(type.equals("") || start.equals("") || end.equals("")){
                             Toast.makeText(EditShifts.this, "Fill All", Toast.LENGTH_LONG).show();
-                        }
-                        else if (dataSnapshot.child(type).exists()) {
+                        } else if (dataSnapshot.child(type).exists()) {
                             HashMap<String, Object> map = new HashMap<>();
                             map.put("start", start);
                             map.put("end",end);
                             mFirebaseDatabase.child(type).updateChildren(map);
                             Toast.makeText(EditShifts.this, "Update succeeded", Toast.LENGTH_LONG).show();
-                            Intent intent=new Intent(getApplicationContext(), afterLoginMangaer.class);
+                            Intent intent = new Intent(getApplicationContext(), afterLoginMangaer.class);
                             intent.putExtra("username", "");
                             startActivity(intent);
                         } else {
                             Toast.makeText(EditShifts.this, "This Shift not Exists", Toast.LENGTH_LONG).show();
                         }
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                         Toast.makeText(EditShifts.this, "An error occured", Toast.LENGTH_LONG).show();
-
                     }
                 });
                 break;
             case R.id.bAdd:
                 final String type1 = etType.getText().toString();
-                final String start1=etStart.getText().toString();
-                final String end1=etEnd.getText().toString();
+                final String start1 = etStart.getText().toString();
+                final String end1 = etEnd.getText().toString();
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if(type1.equals("") || start1.equals("") || end1.equals("")){
                             Toast.makeText(EditShifts.this, "Fill All", Toast.LENGTH_LONG).show();
-                        }
-                        else if(dataSnapshot.child(type1).exists()) {
+                        } else if(dataSnapshot.child(type1).exists()) {
                             Toast.makeText(EditShifts.this, "this shift is exists", Toast.LENGTH_LONG).show();
-
-                        }
-                        else {
+                        } else {
                             mFirebaseDatabase.child(type1).child("start:").setValue(start1);
                             mFirebaseDatabase.child(type1).child("end:").setValue(end1);
                             Toast.makeText(EditShifts.this, "Success ADD", Toast.LENGTH_LONG).show();
-                            Intent intent=new Intent(getApplicationContext(), afterLoginMangaer.class);
+                            Intent intent = new Intent(getApplicationContext(), afterLoginMangaer.class);
                             intent.putExtra("username", "");
                             startActivity(intent);
                         }
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                         Toast.makeText(EditShifts.this, "An error occured", Toast.LENGTH_LONG).show();
-
                     }
                 });
                 break;

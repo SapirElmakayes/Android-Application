@@ -54,14 +54,14 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
 
         bBack = (ImageButton) findViewById(R.id.bBack);
         bBack.setOnClickListener(this);
-        Intent login=getIntent();
-        username=login.getExtras().getString("username");
-        database= FirebaseDatabase.getInstance();
+        Intent login = getIntent();
+        username = login.getExtras().getString("username");
+        database = FirebaseDatabase.getInstance();
         mFirebaseDatabase = database.getReference("users");
-        hello=(TextView)findViewById(R.id.textView2);
-        hello.setText("Hello "+username);
+        hello = (TextView)findViewById(R.id.textView2);
+        hello.setText("Hello " + username);
 
-        Logout= (TextView)findViewById(R.id.Logout);
+        Logout = (TextView)findViewById(R.id.Logout);
         Logout.setOnClickListener(this);
     }
 
@@ -72,18 +72,18 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-
                        User user1=dataSnapshot.child(username).getValue(User.class);
+
                        String nValue =user1._name;
                        String lValue = user1._lastName;
                        String cValue =user1._city;
                        String aValue =user1._address;
                        String mValue =user1._email;
                        String imgValue =user1._img;
-                       if(user1._img==null){
+                       if(user1._img == null){
                            imgValue="";
                        }
-                       byte [] encodeByte = Base64.decode(imgValue, Base64.DEFAULT);
+                       byte[] encodeByte = Base64.decode(imgValue, Base64.DEFAULT);
                        Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
                        imageView.setImageBitmap(bitmap);
                        ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1);
@@ -102,33 +102,25 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                        adapter.add(mValue);
 
                         list.setAdapter(adapter);
-
                     }
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
-
                     }
                 });
 
              //   ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1);
 
                 break;
-
             case R.id.Logout:
                 startActivity(new Intent(afterLogin.this, MainActivity.class));
                 Toast.makeText(this, "Success Logout", Toast.LENGTH_LONG).show();
                 break;
-
             case R.id.bMap:
                 startActivity(new Intent(this, MapsActivity.class));
                 break;
-
             case R.id.bBack:
                 finish();
         }
-
     }
-
-
 }
 

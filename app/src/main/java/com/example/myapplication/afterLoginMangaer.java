@@ -64,14 +64,13 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
 
         bBack = (ImageButton) findViewById(R.id.bBack);
         bBack.setOnClickListener(this);
-        database= FirebaseDatabase.getInstance();
+        database = FirebaseDatabase.getInstance();
 
-        hello=(TextView)findViewById(R.id.textView1);
+        hello = (TextView)findViewById(R.id.textView1);
         if (!username.equals("")) {
-            hello.setText("Hello "+username);
-
+            hello.setText("Hello " + username);
         }
-        Logout= (TextView)findViewById(R.id.Logout);
+        Logout = (TextView)findViewById(R.id.Logout);
         Logout.setOnClickListener(this);
     }
 
@@ -93,7 +92,6 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
                         }
                         View.setText(s);
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                         Toast.makeText(afterLoginMangaer.this, "An error occured", Toast.LENGTH_LONG).show();
@@ -101,30 +99,24 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
                 });
                 textView.setText("");
                 break;
-
             case R.id.bShift:
                 mFirebaseDatabase = database.getReference("shifts");
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
-
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        String s=dataSnapshot.getValue().toString()+"\n";
-                        String ans="";
-                        for (int i=0;  i<s.length(); i++ ){
-                            if(s.charAt(i)!='{' && s.charAt(i)!='}' && s.charAt(i)!='=' && s.charAt(i)!=',' && s.charAt(i)!=' '){
-                                ans=ans+s.charAt(i);
-                            }
-                            else if(s.charAt(i)=='=' && (i+1)<s.length()&& s.charAt(i+1)=='{'){
-                                ans=ans+"\n";
-                            }
-                            else if(s.charAt(i)==','){
-                                ans=ans+"\n";
-                            }
-                            else if(s.charAt(i)=='='){
-                                ans=ans+" ";
-                            }
-                            else if(s.charAt(i)=='}'){
-                                ans=ans+"\n";
+                        String s = dataSnapshot.getValue().toString()+"\n";
+                        String ans = "";
+                        for (int i = 0;  i < s.length(); i++) {
+                            if (s.charAt(i) != '{' && s.charAt(i) != '}' && s.charAt(i) != '=' && s.charAt(i) != ',' && s.charAt(i) != ' ') {
+                                ans = ans + s.charAt(i);
+                            } else if (s.charAt(i)== '=' && (i+1) < s.length() && s.charAt(i + 1) == '{') {
+                                ans = ans + "\n";
+                            } else if (s.charAt(i) == ',') {
+                                ans = ans + "\n";
+                            } else if(s.charAt(i) == '=') {
+                                ans = ans + " ";
+                            } else if(s.charAt(i) == '}') {
+                                ans = ans + "\n";
                             }
                         }
                         View.setText("\n"+ans);
@@ -136,23 +128,20 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
                 });
                 textView.setText("Edit Shifts");
                 break;
-
             case R.id.bAdd:
                 startActivity(new Intent(this, Register.class));
                 break;
-
             case R.id.bPayment:
                 mFirebaseDatabase = database.getReference("Payment per hour");
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        String s="";
+                        String s = "";
                         for (DataSnapshot d: dataSnapshot.getChildren()){
-                            s=s+d.getKey().toString()+" - "+d.getValue().toString()+"\n";
+                            s = s + d.getKey().toString() + " - " + d.getValue().toString() + "\n";
                         }
                         View.setText("\n"+s);
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                         Toast.makeText(afterLoginMangaer.this, "An error occured", Toast.LENGTH_LONG).show();
@@ -160,47 +149,43 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
                 });
                 textView.setText("Edit Payment Per Hour");
                 break;
-
             case R.id.bPaymentToM:
                 mFirebaseDatabase=database.getReference("Payment For Management");
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        String s="";
+                        String s = "";
                         for (DataSnapshot d: dataSnapshot.getChildren()){
-                            s=s+d.getKey().toString()+" - "+d.getValue().toString()+"\n";
+                            s = s + d.getKey().toString() + " - " + d.getValue().toString() + "\n";
                         }
-                        View.setText("\n"+s);
+                        View.setText("\n" + s);
                     }
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
-
                     }
                 });
                 textView.setText("Edit Payment for management");
                 break;
-
             case R.id.bshiftperweek:
                 mFirebaseDatabase = database.getReference("shifts per week");
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        String s="";
+                        String s = "";
                         for (DataSnapshot d: dataSnapshot.getChildren()){
-                            s=s+d.getKey().toString()+"\n"+"\n";
+                            s = s + d.getKey().toString() + "\n" + "\n";
                             for (DataSnapshot p: d.getChildren()){
-                                s=s+p.getKey().toString()+"\n";
+                                s = s + p.getKey().toString() + "\n";
                                 for (DataSnapshot a: p.getChildren()){
-                                    s=s+a.getKey().toString()+" , ";
-                                    s=s+a.getValue().toString()+"\n";
+                                    s = s + a.getKey().toString() + " , ";
+                                    s = s + a.getValue().toString() + "\n";
                                 }
-                                s=s+"\n";
+                                s = s + "\n";
                             }
-                            s=s+"\n";
+                            s = s + "\n";
                         }
                         View.setText("\n"+s);
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
                         Toast.makeText(afterLoginMangaer.this, "An error occured", Toast.LENGTH_LONG).show();
@@ -208,22 +193,17 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
                 });
                 textView.setText("Edit Shift per Week");
                 break;
-
             case R.id.textView:
-                if(textView.getText().toString()=="Edit Shifts"){
+                if(textView.getText().toString() == "Edit Shifts"){
                     startActivity(new Intent(this, EditShifts.class));
-                }
-                else if(textView.getText().toString()=="Edit Payment Per Hour"){
+                } else if(textView.getText().toString() == "Edit Payment Per Hour"){
                     startActivity(new Intent(this, EditPaymentPerHour.class));
-                }
-                else if(textView.getText().toString()=="Edit Shift per Week"){
+                } else if(textView.getText().toString() == "Edit Shift per Week"){
                     startActivity(new Intent(this,EditShiftPerWeek.class));
-                }
-                else if(textView.getText().toString()=="Edit Payment for management"){
+                } else if(textView.getText().toString() == "Edit Payment for management"){
                     startActivity(new Intent(this, EditPaymentForMangment.class));
                 }
                 break;
-
             case R.id.View:
                 View.setText("");
                 textView.setText("");

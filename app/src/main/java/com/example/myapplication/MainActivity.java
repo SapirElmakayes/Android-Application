@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView textView;
     private FirebaseDatabase database;
     private DatabaseReference mFirebaseDatabase;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,54 +40,47 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bLogin.setOnClickListener(this);
         bReadMe.setOnClickListener(this);
         textView.setOnClickListener(this);
-        database=FirebaseDatabase.getInstance();
+
+        database = FirebaseDatabase.getInstance();
         mFirebaseDatabase = database.getReference("users");
     }
-
     @Override
     public void onClick(View v) {
         switch(v.getId()) {
             case R.id.bLogin:
-                final String username=etUserName.getText().toString();
-                final String password1=etPassword.getText().toString();
+                final String username = etUserName.getText().toString();
+                final String password1 = etPassword.getText().toString();
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if(dataSnapshot.child(username).exists()){
                             if(!username.isEmpty()){
-                                final User user1=dataSnapshot.child(username).getValue(User.class);
+                                final User user1 = dataSnapshot.child(username).getValue(User.class);
                                 if(user1._password.equals(password1)){
                                     Toast.makeText(MainActivity.this, "Success Login", Toast.LENGTH_LONG).show();
                                     if(username.equals("manager")){
                                         Intent intent = new Intent(MainActivity.this, afterLoginMangaer.class);
                                         intent.putExtra("username", username);
                                         startActivity(intent);
-                                    }
-                                    else {
+                                    } else {
                                         Intent intent = new Intent(MainActivity.this, afterLogin.class);
                                         intent.putExtra("username", username);
                                         startActivity(intent);
                                     }
-                                }
-                                else{
+                                } else {
                                     Toast.makeText(MainActivity.this, "Password is Worng", Toast.LENGTH_LONG).show();
                                 }
-                            }
-                            else{
+                            } else {
                                 Toast.makeText(MainActivity.this, "Username is not register", Toast.LENGTH_LONG).show();
                             }
-                        }
-                        else{
+                        } else {
                             Toast.makeText(MainActivity.this, "Username is not register", Toast.LENGTH_LONG).show();
                         }
                     }
-
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
-
                     }
                 });
-
                 break;
             case R.id.bReadMe:
                 textView.setText("סידורון\n" +
@@ -111,8 +105,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.textView:
                 textView.setText("");
                 break;
-
         }
-
     }
 }
