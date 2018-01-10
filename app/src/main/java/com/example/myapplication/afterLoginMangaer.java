@@ -15,6 +15,8 @@ import android.widget.TextView;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -28,14 +30,18 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
     private String username;
     private FirebaseDatabase database;
     private DatabaseReference mFirebaseDatabase;
+    private FirebaseAuth auth;
+    private FirebaseUser user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_after_login_mangaer);
 
-        Intent login=getIntent();
-        username=login.getExtras().getString("username");
+        Intent login = getIntent();
+        username = login.getExtras().getString("username");
+        String email = login.getExtras().getString("email");
+        String pass = login.getExtras().getString("pass");
 
         bInfo = (Button) findViewById(R.id.bInfo);
         bInfo.setOnClickListener(this);
@@ -52,19 +58,24 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
         bPayment= (Button) findViewById(R.id.bPayment);
         bPayment.setOnClickListener(this);
 
-        bPaymentToM= (Button) findViewById(R.id.bPaymentToM);
+        bPaymentToM = (Button) findViewById(R.id.bPaymentToM);
         bPaymentToM.setOnClickListener(this);
 
-        textView=(TextView) findViewById(R.id.textView);
+        textView = (TextView) findViewById(R.id.textView);
         textView.setOnClickListener(this);
 
-        View=(TextView) findViewById(R.id.View);
+        View = (TextView) findViewById(R.id.View);
         View.setText("");
         View.setOnClickListener(this);
 
         bBack = (ImageButton) findViewById(R.id.bBack);
         bBack.setOnClickListener(this);
+
         database = FirebaseDatabase.getInstance();
+
+        auth = FirebaseAuth.getInstance();
+       // auth.signInWithEmailAndPassword("manager@gmail.com", "123456");
+        user = auth.getCurrentUser();
 
         hello = (TextView)findViewById(R.id.textView1);
         if (!username.equals("")) {
@@ -84,11 +95,11 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         String s = "";
                         for (DataSnapshot d : dataSnapshot.getChildren()) {
-                            User user1 = d.getValue(User.class);
-                            s = s + user1._name + " " + user1._lastName + "\n"
-                                    +user1._userName+"\n"
-                                    + user1._address + ", " + user1._city + "\n"
-                                    + user1._email + "\n\n";
+                            s += d.child("_name").getValue() + " " +
+                                    d.child("_lastName") + "\n" +
+                                    d.child("_address") + " " +
+                                    d.child("_city")+ "\n" +
+                                    d.child("_email")+"\n";
                         }
                         View.setText(s);
                     }
@@ -104,22 +115,15 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        String s = dataSnapshot.getValue().toString()+"\n";
-                        String ans = "";
-                        for (int i = 0;  i < s.length(); i++) {
-                            if (s.charAt(i) != '{' && s.charAt(i) != '}' && s.charAt(i) != '=' && s.charAt(i) != ',' && s.charAt(i) != ' ') {
-                                ans = ans + s.charAt(i);
-                            } else if (s.charAt(i)== '=' && (i+1) < s.length() && s.charAt(i + 1) == '{') {
-                                ans = ans + "\n";
-                            } else if (s.charAt(i) == ',') {
-                                ans = ans + "\n";
-                            } else if(s.charAt(i) == '=') {
-                                ans = ans + " ";
-                            } else if(s.charAt(i) == '}') {
-                                ans = ans + "\n";
+                        String s ="";
+                        for (DataSnapshot d: dataSnapshot.getChildren()){
+                            s += d.getKey() + "\n";
+                            for (DataSnapshot f: d.getChildren()){
+                                s += f.getKey() + " " + f.getValue() + "\n";
                             }
+                            s += "\n";
                         }
-                        View.setText("\n"+ans);
+                        View.setText("\n"+s);
                     }
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
@@ -209,6 +213,7 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
                 textView.setText("");
                 break;
             case R.id.Logout:
+                auth.signOut();
                 startActivity(new Intent(afterLoginMangaer.this, MainActivity.class));
                 Toast.makeText(this, "Success Logout", Toast.LENGTH_LONG).show();
                 break;

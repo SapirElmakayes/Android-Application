@@ -21,6 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import  android.graphics.Bitmap;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -34,11 +35,11 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
     Button bInfo, bMap;
     ImageButton bBack;
     ImageView imageView;
-    TextView hello, Logout;
+    TextView hello, Logout, Edit;
     private String username;
     private FirebaseDatabase database;
     private DatabaseReference mFirebaseDatabase;
-
+    private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,15 +55,22 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
 
         bBack = (ImageButton) findViewById(R.id.bBack);
         bBack.setOnClickListener(this);
+
         Intent login = getIntent();
         username = login.getExtras().getString("username");
+
         database = FirebaseDatabase.getInstance();
         mFirebaseDatabase = database.getReference("users");
+        mAuth = FirebaseAuth.getInstance();
+
         hello = (TextView)findViewById(R.id.textView2);
         hello.setText("Hello " + username);
 
         Logout = (TextView)findViewById(R.id.Logout);
         Logout.setOnClickListener(this);
+
+        Edit= (TextView) findViewById(R.id.Edit);
+        Edit.setOnClickListener(this);
     }
 
     @Override
@@ -73,16 +81,17 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                        User user1=dataSnapshot.child(username).getValue(User.class);
-
                        String nValue =user1._name;
                        String lValue = user1._lastName;
                        String cValue =user1._city;
                        String aValue =user1._address;
                        String mValue =user1._email;
                        String imgValue =user1._img;
+
                        if(user1._img == null){
                            imgValue="";
                        }
+
                        byte[] encodeByte = Base64.decode(imgValue, Base64.DEFAULT);
                        Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
                        imageView.setImageBitmap(bitmap);
@@ -100,18 +109,17 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                        adapter.add(aValue);
                        adapter.add("E-Mail: ");
                        adapter.add(mValue);
-
                         list.setAdapter(adapter);
                     }
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
+
                     }
                 });
 
-             //   ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1);
-
                 break;
             case R.id.Logout:
+                mAuth.signOut();
                 startActivity(new Intent(afterLogin.this, MainActivity.class));
                 Toast.makeText(this, "Success Logout", Toast.LENGTH_LONG).show();
                 break;
@@ -120,6 +128,12 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                 break;
             case R.id.bBack:
                 finish();
+                break;
+            case R.id.Edit:
+                Intent intent=new Intent(getApplicationContext(), EditMyProfile.class);
+                intent.putExtra("username", username);
+                startActivity(intent);
+                break;
         }
     }
 }

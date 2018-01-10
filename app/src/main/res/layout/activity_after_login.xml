@@ -47,6 +47,13 @@
         android:layout_height="wrap_content"
         android:text="My Location" />
 
+    <TextView
+        android:id="@+id/Edit"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:text="Edit my Profile"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TextView.PopupMenu" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
