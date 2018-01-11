@@ -24,7 +24,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     EditText etUserName, etPassword;
     private FirebaseDatabase database;
     private DatabaseReference mFirebaseDatabase;
-    private FirebaseAuth mAuth;
+//    private FirebaseAuth mAuth;
     FirebaseAnalytics mFirebaseAnalytics;
 
 
@@ -45,7 +45,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         database = FirebaseDatabase.getInstance();
         mFirebaseDatabase = database.getReference("users");
 
-        mAuth = FirebaseAuth.getInstance();
+  //      mAuth = FirebaseAuth.getInstance();
     }
     @Override
     public void onClick(View v) {
@@ -62,9 +62,9 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                         if(dataSnapshot.child(username).exists()){
                             if(!username.isEmpty()){
                                 final User user1 = dataSnapshot.child(username).getValue(User.class);
-                                mAuth.createUserWithEmailAndPassword(user1._email, password1);
+                             //   mAuth.createUserWithEmailAndPassword(user1._email, password1);
                                 if(user1._password.equals(password1)){
-                                    mAuth.signInWithEmailAndPassword(user1._email, password1);
+                               //     mAuth.signInWithEmailAndPassword(user1._email, password1);
                                     Toast.makeText(Login.this, "Success Login", Toast.LENGTH_LONG).show();
                                     if(username.equals("manager")){
                                         Intent intent = new Intent(Login.this, afterLoginMangaer.class);

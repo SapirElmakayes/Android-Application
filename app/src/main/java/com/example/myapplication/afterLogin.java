@@ -80,18 +80,16 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                       User user1=dataSnapshot.child(username).getValue(User.class);
-                       String nValue =user1._name;
-                       String lValue = user1._lastName;
-                       String cValue =user1._city;
-                       String aValue =user1._address;
-                       String mValue =user1._email;
-                       String imgValue =user1._img;
 
-                       if(user1._img == null){
-                           imgValue="";
+                       String nValue = dataSnapshot.child(username).child("_name").getValue().toString();
+                       String lValue = dataSnapshot.child(username).child("_lastName").getValue().toString();
+                       String cValue = dataSnapshot.child(username).child("_city").getValue().toString();
+                       String aValue = dataSnapshot.child(username).child("_address").getValue().toString();
+                       String mValue = dataSnapshot.child(username).child("_email").getValue().toString();
+                       String imgValue = dataSnapshot.child(username).child("_img").getValue().toString();
+                       if(imgValue == null){
+                           imgValue = "";
                        }
-
                        byte[] encodeByte = Base64.decode(imgValue, Base64.DEFAULT);
                        Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
                        imageView.setImageBitmap(bitmap);

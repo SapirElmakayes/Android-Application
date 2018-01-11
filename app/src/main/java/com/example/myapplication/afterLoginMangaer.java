@@ -40,8 +40,6 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
 
         Intent login = getIntent();
         username = login.getExtras().getString("username");
-        String email = login.getExtras().getString("email");
-        String pass = login.getExtras().getString("pass");
 
         bInfo = (Button) findViewById(R.id.bInfo);
         bInfo.setOnClickListener(this);
@@ -74,7 +72,7 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
         database = FirebaseDatabase.getInstance();
 
         auth = FirebaseAuth.getInstance();
-       // auth.signInWithEmailAndPassword("manager@gmail.com", "123456");
+        auth.signInWithEmailAndPassword("manager@gmail.com", "123456");
         user = auth.getCurrentUser();
 
         hello = (TextView)findViewById(R.id.textView1);
@@ -96,10 +94,10 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
                         String s = "";
                         for (DataSnapshot d : dataSnapshot.getChildren()) {
                             s += d.child("_name").getValue() + " " +
-                                    d.child("_lastName") + "\n" +
-                                    d.child("_address") + " " +
-                                    d.child("_city")+ "\n" +
-                                    d.child("_email")+"\n";
+                                    d.child("_lastName").getValue() + "\n" +
+                                    d.child("_address").getValue() + " " +
+                                    d.child("_city").getValue() + "\n" +
+                                    d.child("_email").getValue() + " \n " + " \n ";
                         }
                         View.setText(s);
                     }
