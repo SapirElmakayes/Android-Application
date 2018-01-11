@@ -10,7 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -21,20 +22,30 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
     Button bLogin;
     EditText etUserName, etPassword;
-    FirebaseDatabase database;
-    DatabaseReference mFirebaseDatabase;
+    private FirebaseDatabase database;
+    private DatabaseReference mFirebaseDatabase;
+//    private FirebaseAuth mAuth;
+    FirebaseAnalytics mFirebaseAnalytics;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
         etUserName = (EditText) findViewById(R.id.etUserName);
         etPassword = (EditText) findViewById(R.id.etPassword);
-        bLogin = (Button) findViewById(R.id.bLogin);
 
+        bLogin = (Button) findViewById(R.id.bLogin);
         bLogin.setOnClickListener(this);
+
         database = FirebaseDatabase.getInstance();
         mFirebaseDatabase = database.getReference("users");
+
+  //      mAuth = FirebaseAuth.getInstance();
     }
     @Override
     public void onClick(View v) {
@@ -51,11 +62,12 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                         if(dataSnapshot.child(username).exists()){
                             if(!username.isEmpty()){
                                 final User user1 = dataSnapshot.child(username).getValue(User.class);
+                             //   mAuth.createUserWithEmailAndPassword(user1._email, password1);
                                 if(user1._password.equals(password1)){
+                               //     mAuth.signInWithEmailAndPassword(user1._email, password1);
                                     Toast.makeText(Login.this, "Success Login", Toast.LENGTH_LONG).show();
                                     if(username.equals("manager")){
                                         Intent intent = new Intent(Login.this, afterLoginMangaer.class);
-                                        intent.putExtra("username", username);
                                         startActivity(intent);
                                     } else {
                                         Intent intent = new Intent(Login.this, afterLogin.class);

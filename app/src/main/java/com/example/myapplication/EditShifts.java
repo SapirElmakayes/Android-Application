@@ -85,8 +85,8 @@ public class EditShifts extends AppCompatActivity implements View.OnClickListene
                         } else if(dataSnapshot.child(type1).exists()) {
                             Toast.makeText(EditShifts.this, "this shift is exists", Toast.LENGTH_LONG).show();
                         } else {
-                            mFirebaseDatabase.child(type1).child("start:").setValue(start1);
-                            mFirebaseDatabase.child(type1).child("end:").setValue(end1);
+                            mFirebaseDatabase.child(type1).child("start").setValue(start1);
+                            mFirebaseDatabase.child(type1).child("end").setValue(end1);
                             Toast.makeText(EditShifts.this, "Success ADD", Toast.LENGTH_LONG).show();
                             Intent intent = new Intent(getApplicationContext(), afterLoginMangaer.class);
                             intent.putExtra("username", "");

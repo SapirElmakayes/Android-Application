@@ -62,7 +62,9 @@
         <activity android:name=".EditShifts" />
         <activity android:name=".EditPaymentPerHour" />
         <activity android:name=".EditShiftPerWeek" />
-        <activity android:name=".EditPaymentForMangment"></activity>
+        <activity android:name=".EditPaymentForMangment" />
+        <activity android:name=".EditMyProfile" />
+
     </application>
 
 </manifest>
