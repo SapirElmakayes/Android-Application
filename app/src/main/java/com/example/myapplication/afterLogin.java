@@ -21,6 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import  android.graphics.Bitmap;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -40,6 +41,8 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
     private FirebaseDatabase database;
     private DatabaseReference mFirebaseDatabase;
     private FirebaseAuth mAuth;
+    FirebaseAnalytics mFirebaseAnalytics;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,6 +74,8 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
 
         Edit= (TextView) findViewById(R.id.Edit);
         Edit.setOnClickListener(this);
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
     }
 
     @Override
@@ -81,32 +86,36 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
 
-                       String nValue = dataSnapshot.child(username).child("_name").getValue().toString();
-                       String lValue = dataSnapshot.child(username).child("_lastName").getValue().toString();
-                       String cValue = dataSnapshot.child(username).child("_city").getValue().toString();
-                       String aValue = dataSnapshot.child(username).child("_address").getValue().toString();
-                       String mValue = dataSnapshot.child(username).child("_email").getValue().toString();
-                       String imgValue = dataSnapshot.child(username).child("_img").getValue().toString();
-                       if(imgValue == null){
-                           imgValue = "";
-                       }
-                       byte[] encodeByte = Base64.decode(imgValue, Base64.DEFAULT);
-                       Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
-                       imageView.setImageBitmap(bitmap);
-                       ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1);
+                        Bundle params = new Bundle();
+                        params.putString("username", username);
+                        mFirebaseAnalytics.logEvent("my_info", params);
+
+                        String nValue = dataSnapshot.child(username).child("_name").getValue().toString();
+                        String lValue = dataSnapshot.child(username).child("_lastName").getValue().toString();
+                        String cValue = dataSnapshot.child(username).child("_city").getValue().toString();
+                        String aValue = dataSnapshot.child(username).child("_address").getValue().toString();
+                        String mValue = dataSnapshot.child(username).child("_email").getValue().toString();
+                        String imgValue = dataSnapshot.child(username).child("_img").getValue().toString();
+                        if (imgValue == null) {
+                            imgValue = "";
+                        }
+                        byte[] encodeByte = Base64.decode(imgValue, Base64.DEFAULT);
+                        Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
+                        imageView.setImageBitmap(bitmap);
+                        ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1);
                         ListView list = (ListView) findViewById(R.id.listView);
-                       adapter.add("User Name: ");
-                       adapter.add(username);
-                       adapter.add("Name: ");
-                       adapter.add(nValue);
-                       adapter.add("Last Name: ");
-                       adapter.add(lValue);
-                       adapter.add("City: ");
-                       adapter.add(cValue);
-                       adapter.add("Address: ");
-                       adapter.add(aValue);
-                       adapter.add("E-Mail: ");
-                       adapter.add(mValue);
+                        adapter.add("User Name: ");
+                        adapter.add(username);
+                        adapter.add("Name: ");
+                        adapter.add(nValue);
+                        adapter.add("Last Name: ");
+                        adapter.add(lValue);
+                        adapter.add("City: ");
+                        adapter.add(cValue);
+                        adapter.add("Address: ");
+                        adapter.add(aValue);
+                        adapter.add("E-Mail: ");
+                        adapter.add(mValue);
                         list.setAdapter(adapter);
                     }
                     @Override
@@ -114,7 +123,6 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
 
                     }
                 });
-
                 break;
             case R.id.Logout:
                 mAuth.signOut();

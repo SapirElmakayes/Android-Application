@@ -28,7 +28,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     FirebaseAnalytics mFirebaseAnalytics;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,6 +71,11 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                                     } else {
                                         Intent intent = new Intent(Login.this, afterLogin.class);
                                         intent.putExtra("username", username);
+
+                                        Bundle params = new Bundle();
+                                        params.putString("username", username);
+                                        mFirebaseAnalytics.logEvent("Logged_in_successfully", params);
+
                                         startActivity(intent);
                                     }
                                 } else {
