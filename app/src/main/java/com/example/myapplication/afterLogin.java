@@ -33,10 +33,10 @@ import static android.widget.Toast.*;
 
 public class afterLogin extends AppCompatActivity implements View.OnClickListener {
 
-    Button bInfo, bMap;
+    Button bInfo, bMap, bPayment, bConstraints, bViewShifts, bTypeOfShifts;
     ImageButton bBack;
     ImageView imageView;
-    TextView hello, Logout, Edit;
+    TextView hello, Logout, Edit, View;
     private String username;
     private FirebaseDatabase database;
     private DatabaseReference mFirebaseDatabase;
@@ -48,23 +48,31 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_after_login);
 
+        Intent login = getIntent();
+        username = login.getExtras().getString("username");
+
         bInfo = (Button) findViewById(R.id.bInfo);
         bInfo.setOnClickListener(this);
 
         bMap = (Button) findViewById(R.id.bMap);
         bMap.setOnClickListener(this);
 
+        bPayment = (Button) findViewById(R.id.bPayment);
+        bPayment.setOnClickListener(this);
+
+        bConstraints = (Button) findViewById(R.id.bConstraints);
+        bConstraints.setOnClickListener(this);
+
+        bViewShifts = (Button) findViewById(R.id.bViewShifts);
+        bViewShifts.setOnClickListener(this);
+
+        bTypeOfShifts = (Button) findViewById(R.id.bTypeOfShifts);
+        bTypeOfShifts.setOnClickListener(this);
+
         imageView = (ImageView) findViewById(R.id.imageView);
 
         bBack = (ImageButton) findViewById(R.id.bBack);
         bBack.setOnClickListener(this);
-
-        Intent login = getIntent();
-        username = login.getExtras().getString("username");
-
-        database = FirebaseDatabase.getInstance();
-        mFirebaseDatabase = database.getReference("users");
-        mAuth = FirebaseAuth.getInstance();
 
         hello = (TextView)findViewById(R.id.textView2);
         hello.setText("Hello " + username);
@@ -72,8 +80,16 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
         Logout = (TextView)findViewById(R.id.Logout);
         Logout.setOnClickListener(this);
 
-        Edit= (TextView) findViewById(R.id.Edit);
+        Edit = (TextView) findViewById(R.id.Edit);
         Edit.setOnClickListener(this);
+
+        View = (TextView) findViewById(R.id.View);
+        View.setText("");
+        View.setOnClickListener(this);
+
+        database = FirebaseDatabase.getInstance();
+
+        mAuth = FirebaseAuth.getInstance();
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
     }
@@ -82,6 +98,7 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
     public void onClick(View v) {
         switch(v.getId()) {
             case R.id.bInfo:
+                mFirebaseDatabase = database.getReference("users");
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
@@ -95,51 +112,130 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                         String cValue = dataSnapshot.child(username).child("_city").getValue().toString();
                         String aValue = dataSnapshot.child(username).child("_address").getValue().toString();
                         String mValue = dataSnapshot.child(username).child("_email").getValue().toString();
-                        String imgValue = dataSnapshot.child(username).child("_img").getValue().toString();
-                        if (imgValue == null) {
+                        String imgValue;
+                        if(!dataSnapshot.child(username).child("_img").exists()){
                             imgValue = "";
+                        }
+                        else{
+                            imgValue = dataSnapshot.child(username).child("_img").getValue().toString();
                         }
                         byte[] encodeByte = Base64.decode(imgValue, Base64.DEFAULT);
                         Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
                         imageView.setImageBitmap(bitmap);
-                        ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1);
-                        ListView list = (ListView) findViewById(R.id.listView);
-                        adapter.add("User Name: ");
-                        adapter.add(username);
-                        adapter.add("Name: ");
-                        adapter.add(nValue);
-                        adapter.add("Last Name: ");
-                        adapter.add(lValue);
-                        adapter.add("City: ");
-                        adapter.add(cValue);
-                        adapter.add("Address: ");
-                        adapter.add(aValue);
-                        adapter.add("E-Mail: ");
-                        adapter.add(mValue);
-                        list.setAdapter(adapter);
+                        String s = "Name: " + nValue + "\n" +
+                                "Last Name: " + lValue + "\n" +
+                                "City: " + cValue + "\n" +
+                                "Address: " + aValue + "\n"+
+                                "Email: " + mValue + "\n" ;
+                        View.setText(s);
                     }
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
-
+                        Toast.makeText(afterLogin.this, "An error occured", Toast.LENGTH_LONG).show();
                     }
                 });
                 break;
+
             case R.id.Logout:
                 mAuth.signOut();
                 startActivity(new Intent(afterLogin.this, MainActivity.class));
                 Toast.makeText(this, "Success Logout", Toast.LENGTH_LONG).show();
                 break;
+
             case R.id.bMap:
                 startActivity(new Intent(this, MapsActivity.class));
                 break;
+
             case R.id.bBack:
                 finish();
                 break;
+
             case R.id.Edit:
                 Intent intent=new Intent(getApplicationContext(), EditMyProfile.class);
                 intent.putExtra("username", username);
                 startActivity(intent);
                 break;
+
+            case R.id.bPayment:
+                byte[] encodeByte = Base64.decode("", Base64.DEFAULT);
+                Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
+                imageView.setImageBitmap(bitmap);
+                mFirebaseDatabase = database.getReference("Payment per hour");
+                mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        String s = "";
+                        for (DataSnapshot d: dataSnapshot.getChildren()){
+                            s = s + d.getKey().toString() + " - " + d.getValue().toString() + "\n";
+                        }
+                        View.setText("\n"+s);
+                    }
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                        Toast.makeText(afterLogin.this, "An error occured", Toast.LENGTH_LONG).show();
+                    }
+                });
+                break;
+
+            case R.id.bConstraints:
+                Intent intent1=new Intent(getApplicationContext(), EmployeeConstraints.class);
+                intent1.putExtra("username", username);
+                startActivity(intent1);
+                break;
+
+            case R.id.bViewShifts:
+                byte[] encodeByte1 = Base64.decode("", Base64.DEFAULT);
+                Bitmap bitmap1 = BitmapFactory.decodeByteArray(encodeByte1, 0, encodeByte1.length);
+                imageView.setImageBitmap(bitmap1);
+                mFirebaseDatabase = database.getReference("shifts per week");
+                mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        String s = "";
+                        for (DataSnapshot d: dataSnapshot.getChildren()){
+                            s = s + d.getKey().toString() + "\n" + "\n";
+                            for (DataSnapshot p: d.getChildren()){
+                                s = s + p.getKey().toString() + "\n";
+                                for (DataSnapshot a: p.getChildren()){
+                                    s = s + a.getKey().toString() + " , ";
+                                    s = s + a.getValue().toString() + "\n";
+                                }
+                                s = s + "\n";
+                            }
+                            s = s + "\n";
+                        }
+                        View.setText("\n"+s);
+                    }
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                        Toast.makeText(afterLogin.this, "An error occured", Toast.LENGTH_LONG).show();
+                    }
+                });
+                break;
+            case R.id.bTypeOfShifts:
+                byte[] encodeByte2 = Base64.decode("", Base64.DEFAULT);
+                Bitmap bitmap2 = BitmapFactory.decodeByteArray(encodeByte2, 0, encodeByte2.length);
+                imageView.setImageBitmap(bitmap2);
+                mFirebaseDatabase = database.getReference("shifts");
+                mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        String s ="";
+                        for (DataSnapshot d: dataSnapshot.getChildren()){
+                            s += d.getKey() + "\n";
+                            for (DataSnapshot f: d.getChildren()){
+                                s += f.getKey() + " " + f.getValue() + "\n";
+                            }
+                            s += "\n";
+                        }
+                        View.setText("\n"+s);
+                    }
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+                        Toast.makeText(afterLogin.this, "An error occured", Toast.LENGTH_LONG).show();
+                    }
+                });
+
         }
     }
 }

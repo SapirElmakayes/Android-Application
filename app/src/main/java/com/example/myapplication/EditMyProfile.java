@@ -126,7 +126,7 @@ public class EditMyProfile extends AppCompatActivity implements View.OnClickList
                         }
                         else{
                             User registeredData;
-                            if(img==null && dataSnapshot.child(username).child("_img").exists()){
+                            if(img == null && dataSnapshot.child(username).child("_img").exists()){
                                 String img1=dataSnapshot.child(username).child("_img").getValue().toString();
                                 mFirebaseDatabase.child(username).removeValue();
                                 registeredData=new User(userName,password,name,lastName,city,address,email,img1);

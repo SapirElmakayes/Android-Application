@@ -1,8 +1,14 @@
 package com.example.myapplication;
-
+import static org.hamcrest.CoreMatchers.*;
+import static org.mockito.Mockito.*;
 import org.junit.Test;
-
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
 import static org.junit.Assert.*;
+
+import android.content.Context;
+import android.content.SharedPreferences;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -15,3 +21,4 @@ public class ExampleUnitTest {
         assertEquals(4, 2 + 2);
     }
 }
+

@@ -35,24 +35,103 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Tooltip" />
 
     </LinearLayout>
-    <Button
-        android:id="@+id/bInfo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="My Info" />
 
-    <Button
-        android:id="@+id/bMap"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
         android:layout_height="wrap_content"
-        android:text="My Location" />
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/bInfo"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="My Info"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="My Location"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/bTypeOfShifts"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="Types Of Shifts"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bViewShifts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="Weekly Arrangement"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout04"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/bPayment"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="Payment Per Hour"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bConstraints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:text="Enter The Constraints"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/Edit"
         android:layout_width="105dp"
         android:layout_height="wrap_content"
         android:text="Edit my Profile"
-        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.TextView.PopupMenu" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Tooltip" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -60,10 +139,19 @@
         android:layout_height="100dp"
         android:layout_gravity="center_horizontal" />
 
-    <ListView
-        android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="400dp" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.88"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button" />
+    </ScrollView>
 
     <ImageButton
         android:id="@+id/bBack"

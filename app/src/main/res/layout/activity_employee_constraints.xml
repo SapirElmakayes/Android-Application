@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:padding="18dp"
+        android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Enter Three Constraints"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/Day"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:layout_weight="1"
+                android:background="@color/common_google_signin_btn_text_dark_disabled"
+                android:text="Day"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+            <TextView
+                android:id="@+id/Type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/common_google_signin_btn_text_dark_disabled"
+                android:text="Type Of Shift"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/etDay"
+            android:layout_width="147dp"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp" />
+
+        <EditText
+            android:id="@+id/etType"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/etDay1"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="@dimen/fab_margin" />
+
+        <EditText
+            android:id="@+id/etType1"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp" />
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/LinearLayout04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/etDay2"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="@dimen/fab_margin" />
+
+        <EditText
+            android:id="@+id/etType2"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTER" />
+
+</LinearLayout>

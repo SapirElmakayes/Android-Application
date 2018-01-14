@@ -15,6 +15,7 @@ import android.widget.TextView;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -32,6 +33,8 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
     private DatabaseReference mFirebaseDatabase;
     private FirebaseAuth auth;
     private FirebaseUser user;
+    FirebaseAnalytics mFirebaseAnalytics;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,10 +84,21 @@ public class afterLoginMangaer extends AppCompatActivity implements View.OnClick
         }
         Logout = (TextView)findViewById(R.id.Logout);
         Logout.setOnClickListener(this);
+
+        mFirebaseAnalytics=FirebaseAnalytics.getInstance(this);
+        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, savedInstanceState);
     }
 
     @Override
     public void onClick(View v) {
+        Bundle params=new Bundle();
+        params.putInt("ButtenID",v.getId());
+        String btnName="";
+        params.putString(FirebaseAnalytics.Param.ITEM_ID, "id");
+        params.putString(FirebaseAnalytics.Param.ITEM_NAME, "username");
+        params.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "image");
+        mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, params);
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         switch(v.getId()) {
             case R.id.bInfo:
                 mFirebaseDatabase = database.getReference("users");
