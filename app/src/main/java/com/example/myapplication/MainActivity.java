@@ -15,6 +15,14 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+/* MainActivity:
+This class is the first activity in the Application
+There the user enter the username and password and can use the application.
+There have the first connection to the firebase.
+We can find in this activity the README text by button press.
+When you click on LogIn button you got a Toast message that say if you successes to logged In.
+*/
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button bLogin, bReadMe;

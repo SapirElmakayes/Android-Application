@@ -31,6 +31,12 @@ import com.google.firebase.database.ValueEventListener;
 
 import static android.widget.Toast.*;
 
+/* afterLogin
+This class is the second activity in the Application
+Once a user has successfully logged in, they can get the details, view their profile photo, and get their live location on Google Maps. Of course, now the user can also logout.
+Another option in this activity – the user can edit his profile and update his details.
+*/
+
 public class afterLogin extends AppCompatActivity implements View.OnClickListener {
 
     Button bInfo, bMap, bPayment, bConstraints, bViewShifts, bTypeOfShifts;
@@ -74,7 +80,7 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
         bBack = (ImageButton) findViewById(R.id.bBack);
         bBack.setOnClickListener(this);
 
-        hello = (TextView)findViewById(R.id.textView2);
+        hello = (TextView)findViewById(R.id.HelloMessage);
         hello.setText("Hello " + username);
 
         Logout = (TextView)findViewById(R.id.Logout);
