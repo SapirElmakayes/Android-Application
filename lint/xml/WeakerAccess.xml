@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditPaymentForMangment etPayment" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditPaymentForMangment bAdd" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditPaymentForMangment etRule" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditPaymentForMangment bEdit" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditPaymentPerHour etRule" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditPaymentPerHour bAdd" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>20</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditPaymentPerHour bEdit" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditPaymentPerHour etPayment" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShiftPerWeek etType" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShiftPerWeek etName" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShiftPerWeek bAdd" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShiftPerWeek etRole" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShiftPerWeek bEdit" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShiftPerWeek etDay" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShifts bEdit" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShifts etStart" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShifts etEnd" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShifts bAdd" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShifts etType" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.MainActivity textView" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.MainActivity etPassword" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.MainActivity etUserName" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.MainActivity bLogin" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.MainActivity bReadMe" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MapsActivity.java</file>
+    <line>48</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.MapsActivity REQUEST_LOCATION_CODE" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MapsActivity.java</file>
+    <line>117</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.MapsActivity boolean checkLocationPerrmision()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MapsActivity.java</file>
+    <line>74</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.MapsActivity void buildGoogleClient()" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register bTakePic" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>44</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register mDatabase" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register etUserName" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register etPassword" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register etLastName" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register bRegister" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>43</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register userLocalStore" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register etName" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>41</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register selectedImg" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register bupimg" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register etEMail" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>40</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register imagetoupload" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register etAddress" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register etCity" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.Register encodedImg" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin bTypeOfShifts" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin Logout" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin View" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin bPayment" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>50</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin mFirebaseAnalytics" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin bViewShifts" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin bInfo" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>43</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin bBack" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin Edit" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin bMap" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>44</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin imageView" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin bConstraints" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin hello" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer mFirebaseAnalytics" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer bShift" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer Logout" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer textView" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer bInfo" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer bAdd" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer hello" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer bBack" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer bPayment" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer bshiftperweek" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer View" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer bPaymentToM" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile etName" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile etAddress" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile bTakePic" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile bUpdate" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile bupimg" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile etCity" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>32</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile selectedImg" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile etLastName" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile etUserName" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile etEMail" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile encodedImg" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile etPassword" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile imagetoupload" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/UserLocalStore.java</file>
+    <line>12</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.UserLocalStore userLocalDB" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/UserLocalStore.java</file>
+    <line>11</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.UserLocalStore SP_NAME" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/UserLocalStore.java</file>
+    <line>10</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="class" FQNAME="com.example.myapplication.UserLocalStore" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="packageLocal" />
+    </hints>
+    <description>Can be package-private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/test/java/com/example/myapplication/MockitoTest.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.MockitoTest mMockContext" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EmployeeConstraints etDay1" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EmployeeConstraints bEnter" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EmployeeConstraints etDay" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EmployeeConstraints etType1" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EmployeeConstraints etType2" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EmployeeConstraints etType" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EmployeeConstraints etDay2" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Declaration access can be weaker</problem_class>
+    <hints>
+      <hint value="private" />
+    </hints>
+    <description>Can be private</description>
+  </problem>
+</problems>
+

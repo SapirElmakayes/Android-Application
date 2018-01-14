@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/User.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.User boolean isValidPassword(java.lang.String password)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Actual method parameter is the same constant</problem_class>
+    <hints>
+      <hint value="password com.example.myapplication.MockitoTest.FAKE_STRING" />
+    </hints>
+    <description>Actual value of parameter '&lt;code&gt;password&lt;/code&gt;' is always '&lt;code&gt;com.example.myapplication.MockitoTest.FAKE_STRING&lt;/code&gt;'</description>
+  </problem>
+</problems>
+

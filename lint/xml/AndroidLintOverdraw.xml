@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shift_per_week.xml</file>
+    <line>8</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shift_per_week.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overdraw: Painting regions more than once</problem_class>
+    <hints />
+    <description>&lt;html&gt;Possible overdraw: Root element paints background &lt;code&gt;@drawable/background&lt;/code&gt; with a theme that also paints a background (inferred theme is &lt;code&gt;@style/AppTheme&lt;/code&gt;)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_for_mangment.xml</file>
+    <line>8</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_for_mangment.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overdraw: Painting regions more than once</problem_class>
+    <hints />
+    <description>&lt;html&gt;Possible overdraw: Root element paints background &lt;code&gt;@drawable/background&lt;/code&gt; with a theme that also paints a background (inferred theme is &lt;code&gt;@style/AppTheme&lt;/code&gt;)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overdraw: Painting regions more than once</problem_class>
+    <hints />
+    <description>&lt;html&gt;Possible overdraw: Root element paints background &lt;code&gt;@drawable/background&lt;/code&gt; with a theme that also paints a background (inferred theme is &lt;code&gt;@style/AppTheme_NoActionBar&lt;/code&gt;)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overdraw: Painting regions more than once</problem_class>
+    <hints />
+    <description>&lt;html&gt;Possible overdraw: Root element paints background &lt;code&gt;@drawable/background&lt;/code&gt; with a theme that also paints a background (inferred theme is &lt;code&gt;@style/AppTheme_NoActionBar&lt;/code&gt;)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overdraw: Painting regions more than once</problem_class>
+    <hints />
+    <description>&lt;html&gt;Possible overdraw: Root element paints background &lt;code&gt;@drawable/background&lt;/code&gt; with a theme that also paints a background (inferred theme is &lt;code&gt;@style/AppTheme&lt;/code&gt;)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overdraw: Painting regions more than once</problem_class>
+    <hints />
+    <description>&lt;html&gt;Possible overdraw: Root element paints background &lt;code&gt;@drawable/background&lt;/code&gt; with a theme that also paints a background (inferred theme is &lt;code&gt;@style/AppTheme&lt;/code&gt;)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shifts.xml</file>
+    <line>8</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shifts.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overdraw: Painting regions more than once</problem_class>
+    <hints />
+    <description>&lt;html&gt;Possible overdraw: Root element paints background &lt;code&gt;@drawable/background&lt;/code&gt; with a theme that also paints a background (inferred theme is &lt;code&gt;@style/AppTheme&lt;/code&gt;)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_per_hour.xml</file>
+    <line>8</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_per_hour.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overdraw: Painting regions more than once</problem_class>
+    <hints />
+    <description>&lt;html&gt;Possible overdraw: Root element paints background &lt;code&gt;@drawable/background&lt;/code&gt; with a theme that also paints a background (inferred theme is &lt;code&gt;@style/AppTheme&lt;/code&gt;)&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Overdraw: Painting regions more than once</problem_class>
+    <hints />
+    <description>&lt;html&gt;Possible overdraw: Root element paints background &lt;code&gt;@drawable/background&lt;/code&gt; with a theme that also paints a background (inferred theme is &lt;code&gt;@style/AppTheme&lt;/code&gt;)&lt;/html&gt;</description>
+  </problem>
+</problems>
+

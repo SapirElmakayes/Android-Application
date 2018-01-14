@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>67</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.MainActivity$1 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Dereference of &lt;code&gt;user1&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>139</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;get&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>145</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;compress&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>127</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Condition &lt;code&gt;requestCode == 1&lt;/code&gt; is always &lt;code&gt;true&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>101</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register$1 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>207</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$3 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>175</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$2 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>116</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$1 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>117</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$1 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>118</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$1 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>119</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$1 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>120</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$1 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>126</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$1 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>58</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;getString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;getString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>175</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer$4 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>157</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer$3 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>197</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer$5 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>130</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile$2 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;toString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>73</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile$1 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Dereference of &lt;code&gt;user1&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>43</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;getString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>174</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;get&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>180</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;compress&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>161</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onActivityResult(int requestCode, int resultCode, android.content.Intent data)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Condition &lt;code&gt;requestCode == 1&lt;/code&gt; is always &lt;code&gt;true&lt;/code&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EmployeeConstraints void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Constant conditions &amp; exceptions</problem_class>
+    <description>Method invocation &lt;code&gt;getString&lt;/code&gt; may produce &lt;code&gt;java.lang.NullPointerException&lt;/code&gt;</description>
+  </problem>
+</problems>
+

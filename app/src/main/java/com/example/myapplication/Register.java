@@ -117,9 +117,6 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                     public void onCancelled(DatabaseError databaseError) {
                     }
                 });
-                //userLocalStore.storeUserData(registeredData);
-                //startActivity(new Intent(this, Login.class));
-               // break;
         }
     }
 @Override

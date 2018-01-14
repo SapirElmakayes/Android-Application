@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>67</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>92</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>19</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Mangment'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>66</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>91</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>72</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>98</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>72</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>98</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>21</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>32</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>79</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Worng'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MapsActivity.java</file>
+    <line>117</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MapsActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Perrmision'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MapsActivity.java</file>
+    <line>142</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MapsActivity.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Perrmision'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'bupimg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>40</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'imagetoupload'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>131</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Bimg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>139</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Bimg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>48</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>50</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>140</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>181</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>217</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>241</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'bshiftperweek'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>95</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Butten'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>120</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>142</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>163</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>207</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>27</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Mangaer'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>28</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'bupimg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'imagetoupload'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>35</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>149</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>165</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Bimg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>174</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Bimg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>62</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Mangaer'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml</file>
+    <line>66</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Mangment'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>4</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>4</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firebaseio'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>6</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'appspot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>11</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mobilesdk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>11</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'bcbec'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>18</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'prfv'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>18</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'googleusercontent'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>22</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'dfdeb'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>22</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ebaad'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>26</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'vses'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>26</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mldcb'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>26</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mtpc'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>26</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'googleusercontent'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>32</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'byskwa'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>32</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Aixen'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>39</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'appinvite'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>43</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'vses'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>43</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mldcb'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>43</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mtpc'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/google-services.json</file>
+    <line>43</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'googleusercontent'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>4</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>4</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'firebaseio'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>6</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'appspot'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>11</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mobilesdk'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>11</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'bcbec'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>18</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'prfv'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>18</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'googleusercontent'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>22</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'dfdeb'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>22</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ebaad'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>26</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'vses'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>26</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mldcb'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>26</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mtpc'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>26</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'googleusercontent'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>32</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'byskwa'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>32</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Aixen'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>39</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'appinvite'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>43</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'vses'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>43</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mldcb'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>43</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'mtpc'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/google-services.json</file>
+    <line>43</line>
+    <module>MyApplication2</module>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google-services.json" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'googleusercontent'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shift_per_week.xml</file>
+    <line>35</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shift_per_week.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shift_per_week.xml</file>
+    <line>46</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shift_per_week.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_for_mangment.xml</file>
+    <line>35</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_for_mangment.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_for_mangment.xml</file>
+    <line>46</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_for_mangment.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>52</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>62</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>82</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>92</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>112</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>122</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>51</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>61</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>80</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>86</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'bshiftperweek'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>90</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>109</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>119</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
+    <line>47</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
+    <line>54</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shifts.xml</file>
+    <line>35</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shifts.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shifts.xml</file>
+    <line>46</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shifts.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml</file>
+    <line>24</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'bupimg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml</file>
+    <line>29</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml</file>
+    <line>39</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml</file>
+    <line>47</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'imagetoupload'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_per_hour.xml</file>
+    <line>35</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_per_hour.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_per_hour.xml</file>
+    <line>46</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_per_hour.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/UserLocalStore.java</file>
+    <line>7</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/UserLocalStore.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Sapir'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/User.java</file>
+    <line>6</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/User.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Sapir'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'apiid'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml</file>
+    <line>7</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Bcom'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml</file>
+    <line>24</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'ndhu'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml</file>
+    <line>24</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Rtpa'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml</file>
+    <line>24</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Sqfnx'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml</file>
+    <line>14</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signup'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml</file>
+    <line>20</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'DCFSU'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml</file>
+    <line>20</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/release/res/values/google_maps_api.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Iwmh'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml</file>
+    <line>32</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml</file>
+    <line>41</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>24</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'Firebase'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>84</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'occured'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml</file>
+    <line>31</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'bupimg'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml</file>
+    <line>36</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml</file>
+    <line>46</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'signin'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml</file>
+    <line>54</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'imagetoupload'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/example/myapplication/MainActivityTest.java</file>
+    <line>77</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/myapplication/MainActivityTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'liely'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/example/myapplication/MainActivityTest.java</file>
+    <line>107</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/myapplication/MainActivityTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'liely'</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/example/myapplication/MainActivityTest.java</file>
+    <line>115</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/myapplication/MainActivityTest.java" />
+    <problem_class severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+    <description>Typo: In word 'liely'</description>
+  </problem>
+</problems>
+

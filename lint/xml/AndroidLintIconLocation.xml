@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/background.jpeg</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/background.jpeg" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/background.jpeg&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/drawable/emoji.jpeg</file>
+    <line>1</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/drawable/emoji.jpeg" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Image defined in density-independent drawable folder</problem_class>
+    <hints />
+    <description>&lt;html&gt;Found bitmap drawable &lt;code&gt;res/drawable/emoji.jpeg&lt;/code&gt; in densityless folder&lt;/html&gt;</description>
+  </problem>
+</problems>
+

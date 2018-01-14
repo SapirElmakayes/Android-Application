@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>202</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$3 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'String.toString()'</problem_class>
+    <description>&lt;code&gt;d.getKey().toString()&lt;/code&gt; is redundant #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>204</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$3 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'String.toString()'</problem_class>
+    <description>&lt;code&gt;p.getKey().toString()&lt;/code&gt; is redundant #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>206</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$3 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'String.toString()'</problem_class>
+    <description>&lt;code&gt;a.getKey().toString()&lt;/code&gt; is redundant #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>175</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin$2 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'String.toString()'</problem_class>
+    <description>&lt;code&gt;d.getKey().toString()&lt;/code&gt; is redundant #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>175</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer$4 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'String.toString()'</problem_class>
+    <description>&lt;code&gt;d.getKey().toString()&lt;/code&gt; is redundant #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>157</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer$3 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'String.toString()'</problem_class>
+    <description>&lt;code&gt;d.getKey().toString()&lt;/code&gt; is redundant #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>192</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer$5 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'String.toString()'</problem_class>
+    <description>&lt;code&gt;d.getKey().toString()&lt;/code&gt; is redundant #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>194</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer$5 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'String.toString()'</problem_class>
+    <description>&lt;code&gt;p.getKey().toString()&lt;/code&gt; is redundant #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>196</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer$5 void onDataChange(com.google.firebase.database.DataSnapshot dataSnapshot)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Redundant 'String.toString()'</problem_class>
+    <description>&lt;code&gt;a.getKey().toString()&lt;/code&gt; is redundant #loc</description>
+  </problem>
+</problems>
+

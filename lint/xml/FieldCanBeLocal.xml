@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditPaymentForMangment database" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>22</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditPaymentPerHour database" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShiftPerWeek database" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditShifts database" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.MainActivity database" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MapsActivity.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.MapsActivity locationRequest" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MapsActivity.java</file>
+    <line>46</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.MapsActivity lastLocation" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>48</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLogin mFirebaseDatabase" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer username" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>35</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer user" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.afterLoginMangaer mFirebaseDatabase" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>34</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EditMyProfile database" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>23</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="field" FQNAME="com.example.myapplication.EmployeeConstraints database" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Field can be local</problem_class>
+    <description>Field can be converted to a local variable</description>
+  </problem>
+</problems>
+

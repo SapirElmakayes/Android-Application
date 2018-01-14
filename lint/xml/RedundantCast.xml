@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditPaymentForMangment void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etRole)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditPaymentForMangment void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bAdd)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditPaymentForMangment void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById (R.id.bEdit)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentForMangment.java</file>
+    <line>37</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditPaymentForMangment void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etPayment)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>35</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditPaymentPerHour void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etRole)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>32</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditPaymentPerHour void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bAdd)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>29</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditPaymentPerHour void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById (R.id.bEdit)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditPaymentPerHour.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditPaymentPerHour void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etPayment)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditShiftPerWeek void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etRole)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>33</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditShiftPerWeek void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bAdd)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>30</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditShiftPerWeek void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById (R.id.bEdit)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>37</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditShiftPerWeek void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etType)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditShiftPerWeek void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etName)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShiftPerWeek.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditShiftPerWeek void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById( R.id.etDay)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditShifts void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etEnd)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>34</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditShifts void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bAdd)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>31</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditShifts void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById (R.id.bEdit)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditShifts void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etStart)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditShifts.java</file>
+    <line>37</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditShifts void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etType)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etUserName)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>45</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etUserName)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bLogin)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>41</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.textView)&lt;/code&gt; to &lt;code&gt;TextView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>43</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etPassword)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>46</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etPassword)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.java</file>
+    <line>40</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.MainActivity void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bReadMe)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>65</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bRegister)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>55</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etLastName)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>57</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etAddress)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>62</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bupimg)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>52</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etUserName)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>54</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etName)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>56</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etCity)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>60</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.imagetoupload)&lt;/code&gt; to &lt;code&gt;ImageView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>58</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etEMail)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>68</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bTakePic)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Register.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.Register void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etPassword)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>89</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.Edit)&lt;/code&gt; to &lt;code&gt;TextView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>60</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bInfo)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>75</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bTypeOfShifts)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>86</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.Logout)&lt;/code&gt; to &lt;code&gt;TextView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>72</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bViewShifts)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>83</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.HelloMessage)&lt;/code&gt; to &lt;code&gt;TextView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>69</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bConstraints)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>80</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bBack)&lt;/code&gt; to &lt;code&gt;ImageButton&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>66</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bPayment)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>92</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.View)&lt;/code&gt; to &lt;code&gt;TextView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>63</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bMap)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLogin.java</file>
+    <line>78</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLogin void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.imageView)&lt;/code&gt; to &lt;code&gt;ImageView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>62</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bPaymentToM)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>59</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bPayment)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>56</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bshiftperweek)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>85</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.Logout)&lt;/code&gt; to &lt;code&gt;TextView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bShift)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>81</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.textView1)&lt;/code&gt; to &lt;code&gt;TextView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>68</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.View)&lt;/code&gt; to &lt;code&gt;TextView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>72</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bBack)&lt;/code&gt; to &lt;code&gt;ImageButton&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>50</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bAdd)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>65</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.textView)&lt;/code&gt; to &lt;code&gt;TextView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>47</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bInfo)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>53</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etAddress)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>56</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.imagetoupload)&lt;/code&gt; to &lt;code&gt;ImageView&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>48</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etUserName)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>50</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etName)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>64</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bTakePic)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>52</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etCity)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>61</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bUpdate)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>54</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etEMail)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>58</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bupimg)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>49</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etPassword)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EditMyProfile.java</file>
+    <line>51</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EditMyProfile void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etLastName)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>36</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EmployeeConstraints void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etType)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>38</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EmployeeConstraints void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etType1)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>40</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EmployeeConstraints void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etType2)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>35</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EmployeeConstraints void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etDay)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>37</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EmployeeConstraints void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etDay1)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>39</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EmployeeConstraints void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.etDay2)&lt;/code&gt; to &lt;code&gt;EditText&lt;/code&gt; is redundant</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/EmployeeConstraints.java</file>
+    <line>42</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.EmployeeConstraints void onCreate(android.os.Bundle savedInstanceState)" />
+    <problem_class severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">Redundant type cast</problem_class>
+    <description>Casting &lt;code&gt;findViewById(R.id.bEnter)&lt;/code&gt; to &lt;code&gt;Button&lt;/code&gt; is redundant</description>
+  </problem>
+</problems>
+

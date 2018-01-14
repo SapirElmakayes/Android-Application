@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shift_per_week.xml</file>
+    <line>26</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shift_per_week.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_for_mangment.xml</file>
+    <line>26</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_for_mangment.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>16</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>44</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>74</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>104</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>152</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;ScrollView&lt;/code&gt;: &lt;code&gt;layout_weight&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>16</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>43</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>72</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>101</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>140</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;ScrollView&lt;/code&gt;: &lt;code&gt;layout_weight&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml</file>
+    <line>65</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;ScrollView&lt;/code&gt;: &lt;code&gt;layout_weight&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shifts.xml</file>
+    <line>26</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shifts.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml</file>
+    <line>21</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_per_hour.xml</file>
+    <line>26</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_per_hour.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml</file>
+    <line>24</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml</file>
+    <line>51</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml</file>
+    <line>72</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml</file>
+    <line>92</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml</file>
+    <line>28</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Obsolete layout params</problem_class>
+    <hints />
+    <description>&lt;html&gt;Invalid layout param in a &lt;code&gt;LinearLayout&lt;/code&gt;: &lt;code&gt;layout_alignParentBottom&lt;/code&gt;&lt;/html&gt;</description>
+  </problem>
+</problems>
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shift_per_week.xml</file>
+    <line>33</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shift_per_week.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_for_mangment.xml</file>
+    <line>33</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_for_mangment.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>22</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>50</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>80</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml</file>
+    <line>110</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>22</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>49</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>78</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml</file>
+    <line>107</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_after_login_mangaer.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shifts.xml</file>
+    <line>33</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_shifts.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml</file>
+    <line>27</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_per_hour.xml</file>
+    <line>33</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_payment_per_hour.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml</file>
+    <line>30</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml</file>
+    <line>56</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml</file>
+    <line>79</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml</file>
+    <line>99</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_employee_constraints.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml</file>
+    <line>34</line>
+    <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit_my_profile.xml" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Using left/right instead of start/end attributes</problem_class>
+    <hints />
+    <description>&lt;html&gt;Consider replacing &lt;code&gt;android:layout_marginRight&lt;/code&gt; with &lt;code&gt;android:layout_marginEnd=&quot;@dimen/fab_margin&quot;&lt;/code&gt; to better support right-to-left layouts&lt;/html&gt;</description>
+  </problem>
+</problems>
+

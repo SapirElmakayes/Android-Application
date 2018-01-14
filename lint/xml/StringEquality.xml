@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>213</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onClick(android.view.View v)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String comparison using '==', instead of 'equals()'</problem_class>
+    <description>String values are compared using &lt;code&gt;==&lt;/code&gt;, not 'equals()' #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>215</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onClick(android.view.View v)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String comparison using '==', instead of 'equals()'</problem_class>
+    <description>String values are compared using &lt;code&gt;==&lt;/code&gt;, not 'equals()' #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>217</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onClick(android.view.View v)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String comparison using '==', instead of 'equals()'</problem_class>
+    <description>String values are compared using &lt;code&gt;==&lt;/code&gt;, not 'equals()' #loc</description>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/afterLoginMangaer.java</file>
+    <line>219</line>
+    <module>app</module>
+    <package>com.example.myapplication</package>
+    <entry_point TYPE="method" FQNAME="com.example.myapplication.afterLoginMangaer void onClick(android.view.View v)" />
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">String comparison using '==', instead of 'equals()'</problem_class>
+    <description>String values are compared using &lt;code&gt;==&lt;/code&gt;, not 'equals()' #loc</description>
+  </problem>
+</problems>
+
