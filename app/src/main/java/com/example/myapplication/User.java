@@ -26,4 +26,9 @@ public class User {
     public String get_password(){
         return _password;
     }
+
+    public boolean isValidPassword(String password){
+        if(password.length() >= 6) return true;
+        return false;
+    }
 }

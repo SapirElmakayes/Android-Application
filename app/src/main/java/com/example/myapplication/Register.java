@@ -98,6 +98,9 @@ public class Register extends AppCompatActivity implements View.OnClickListener{
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         if (dataSnapshot.child(userName).exists())
                             Toast.makeText(Register.this, "The UserName is already exists!", Toast.LENGTH_LONG).show();
+                        if (dataSnapshot.child(userName).child(password).getValue().toString().length()<6){
+                            Toast.makeText(Register.this, "Enter password with 6 characters", Toast.LENGTH_LONG).show();
+                        }
                         else {
                             mDatabase.child("users").child(userName).setValue(registeredData);
                             //create users and logout

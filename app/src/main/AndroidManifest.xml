@@ -64,7 +64,7 @@
         <activity android:name=".EditShiftPerWeek" />
         <activity android:name=".EditPaymentForMangment" />
         <activity android:name=".EditMyProfile" />
-
+        <activity android:name=".EmployeeConstraints"></activity>
     </application>
 
 </manifest>
