@@ -15,6 +15,8 @@
     <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.REAS_GSERVICES" />
 
     <application
         android:allowBackup="true"
