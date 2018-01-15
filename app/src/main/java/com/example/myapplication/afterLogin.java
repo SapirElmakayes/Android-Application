@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.Keep;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -43,6 +44,7 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
     ImageButton bBack;
     ImageView imageView;
     TextView hello, Logout, Edit, View;
+    @Keep
     private String username;
     private FirebaseDatabase database;
     private DatabaseReference mFirebaseDatabase;
@@ -147,12 +149,14 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                 break;
 
             //if the user want to logOut
+            // disconnect the user
             case R.id.Logout:
                 mAuth.signOut();
                 startActivity(new Intent(afterLogin.this, MainActivity.class));
                 Toast.makeText(this, "Success Logout", Toast.LENGTH_LONG).show();
                 break;
 
+            //moves to GoogleMap activity
             case R.id.bMap:
                 startActivity(new Intent(this, MapsActivity.class));
                 break;
@@ -161,12 +165,14 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                 finish();
                 break;
 
+            //move to the edit profile class
             case R.id.Edit:
                 Intent intent=new Intent(getApplicationContext(), EditMyProfile.class);
                 intent.putExtra("username", username);
                 startActivity(intent);
                 break;
 
+            //we show the payment for any worker type
             case R.id.bPayment:
                 byte[] encodeByte = Base64.decode("", Base64.DEFAULT);
                 Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
@@ -188,12 +194,14 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                 });
                 break;
 
+            //moved to other activity, there the user can enter his constraints
             case R.id.bConstraints:
                 Intent intent1=new Intent(getApplicationContext(), EmployeeConstraints.class);
                 intent1.putExtra("username", username);
                 startActivity(intent1);
                 break;
 
+            //show the shifts in the rasturant for this week
             case R.id.bViewShifts:
                 byte[] encodeByte1 = Base64.decode("", Base64.DEFAULT);
                 Bitmap bitmap1 = BitmapFactory.decodeByteArray(encodeByte1, 0, encodeByte1.length);
@@ -223,6 +231,7 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                     }
                 });
                 break;
+            //the type of shifts in the resturant
             case R.id.bTypeOfShifts:
                 byte[] encodeByte2 = Base64.decode("", Base64.DEFAULT);
                 Bitmap bitmap2 = BitmapFactory.decodeByteArray(encodeByte2, 0, encodeByte2.length);

@@ -23,3 +23,13 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+#we want rhat everyone will can see his username
+-keep keepclassmembers class com.example.myapplication.afterLogin {
+    private <username>;
+}
+
+#we want that the clients will know if have problem with the enters passwords
+-keep keep class package com.example.myapplication.User {
+    public boolean isValidPassword(String password);
+}

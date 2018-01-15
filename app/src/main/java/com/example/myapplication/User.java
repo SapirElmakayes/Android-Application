@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.net.Uri;
+import android.support.annotation.Keep;
 
 /**
  * Created by Sapir on 02/12/2017.
@@ -26,7 +27,7 @@ public class User {
     public String get_password(){
         return _password;
     }
-
+    @Keep
     public boolean isValidPassword(String password){
         if(password.length() >= 6) return true;
         return false;
