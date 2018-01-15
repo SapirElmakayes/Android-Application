@@ -104,27 +104,31 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
     public void onClick(View v) {
         switch(v.getId()) {
             case R.id.bInfo:
+                //the user want to show his info.
                 mFirebaseDatabase = database.getReference("users");
                 mFirebaseDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-
+                        //Analytics - how many show the "my Info"
                         Bundle params = new Bundle();
                         params.putString("username", username);
                         mFirebaseAnalytics.logEvent("my_info", params);
 
+                        //get the information from user in the database
                         String nValue = dataSnapshot.child(username).child("_name").getValue().toString();
                         String lValue = dataSnapshot.child(username).child("_lastName").getValue().toString();
                         String cValue = dataSnapshot.child(username).child("_city").getValue().toString();
                         String aValue = dataSnapshot.child(username).child("_address").getValue().toString();
                         String mValue = dataSnapshot.child(username).child("_email").getValue().toString();
                         String imgValue;
+                        //if the user not define img
                         if(!dataSnapshot.child(username).child("_img").exists()){
                             imgValue = "";
                         }
                         else{
                             imgValue = dataSnapshot.child(username).child("_img").getValue().toString();
                         }
+                        //show the img (with bitmap)
                         byte[] encodeByte = Base64.decode(imgValue, Base64.DEFAULT);
                         Bitmap bitmap = BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
                         imageView.setImageBitmap(bitmap);
@@ -142,6 +146,7 @@ public class afterLogin extends AppCompatActivity implements View.OnClickListene
                 });
                 break;
 
+            //if the user want to logOut
             case R.id.Logout:
                 mAuth.signOut();
                 startActivity(new Intent(afterLogin.this, MainActivity.class));
